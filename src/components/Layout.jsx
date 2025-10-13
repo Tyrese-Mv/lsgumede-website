@@ -1,0 +1,25 @@
+import { Outlet } from 'react-router-dom'
+import Header from './Header'
+import Footer from './Footer'
+import ScrollProgress from './ScrollProgress'
+import AnimatedBackground from './AnimatedBackground'
+import FloatingParticles from './FloatingParticles'
+import MorphingBlobs from './MorphingBlobs'
+
+const Layout = () => {
+  return (
+    <div className="font-body bg-brand-brown text-white relative">
+      <ScrollProgress />
+      <AnimatedBackground />
+      <FloatingParticles />
+      <MorphingBlobs />
+      <Header />
+      <main>
+        <Outlet />
+      </main>
+      <Footer />
+    </div>
+  )
+}
+
+export default Layout
