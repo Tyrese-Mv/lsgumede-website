@@ -48,13 +48,13 @@ const Header = () => {
               <motion.img
                 src="/LS_Gumede_only_logo.png"
                 alt="LS Gumede Attorneys"
-                className="h-20 md:h-24 w-auto object-contain"
+                className="h-16 md:h-24 w-auto object-contain"
                 style={{ filter: 'drop-shadow(0 0 10px rgba(201, 169, 97, 0.3))' }}
                 whileHover={{ rotate: 5 }}
                 transition={{ duration: 0.3 }}
               />
-              <div className="hidden sm:block">
-                <h1 className="font-heading text-xl md:text-2xl text-brand-gold">LS GUMEDE</h1>
+              <div>
+                <h1 className="font-heading text-lg md:text-2xl text-brand-gold">LS GUMEDE</h1>
                 <p className="text-xs md:text-sm text-brand-gold/70">ATTORNEYS</p>
               </div>
             </motion.div>
