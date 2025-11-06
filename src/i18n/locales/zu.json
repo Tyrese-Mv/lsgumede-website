@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Ikhaya",
+    "about": "Mayelana Nathi",
+    "services": "Izinsizakalo",
+    "contact": "Xhumana Nathi"
+  },
+  "hero": {
+    "badge": "Inkampani Yomthetho Ephethwe NgaBantu Abamnyama Ngo-100%",
+    "title": "Simela",
+    "titleHighlight": "Abangenazwi",
+    "description": "Ubulungiswa abuhleliwe kuphela labo abangakuthenga. Sinika abantu ithemba lapho kungathi alikho, futhi siqinisekisa ukuthi ubulungiswa buyafika kubo bonke.",
+    "quote": "Mela iqiniso, ngisho noma ume wedwa.",
+    "cta": {
+      "consultation": "Iseluleko Samahhala",
+      "services": "Izinsizakalo Zethu"
+    }
+  },
+  "stats": {
+    "cases": "Amacala Aphunyelelisiwe",
+    "success": "Izinga Lokuphumelela",
+    "experience": "Iminyaka Yolwazi",
+    "clients": "Amakhasimende Anenjabulo"
+  },
+  "services": {
+    "title": "Izinsizakalo",
+    "titleHighlight": "Zethu",
+    "subtitle": "Izinsizakalo zomthetho eziphelele ngobuqotho nokuphakama",
+    "raf": {
+      "title": "Ukulimala Komzimba (RAF)",
+      "description": "Izimangalo ze-Road Accident Fund zingivumela ukuthi ngisize izisulu zakha kabusha impilo yazo ngemuva kwezingozi ezibhubhisayo. Siphatha konke okuningi ukuze ukwazi ukugxila ekuphuleni kwakho.",
+      "why": "Kuya enhliziyweni yesithunzi somuntu"
+    },
+    "medical": {
+      "title": "Ukunganakwa Kwezokwelapha",
+      "description": "Lapho labo abathembiswe ukunakekela kwethu behluleka ukuhlangabezana nomsebenzi wabo, sifuna ukuphendula. Ubufanele okungcono, futhi silwela ukwenza lokho kwaziwe.",
+      "why": "Ukubamba abasebenzi bezempilo bebamba izicubu"
+    },
+    "arrest": {
+      "title": "Ukuboshwa Okungekho Emthethweni",
+      "description": "Mayelana nokubuyisela isithunzi kulabo abone okungalungile uhlelo olwalufanele ukubavikela. Uma uvalelwe ngaphandle kobufakazi, silwela amalungelo akho.",
+      "why": "Ukubuyisela isithunzi nokuthola inhlawulo"
+    },
+    "civil": {
+      "title": "Amacala Asivili",
+      "description": "Ukuvikela amalungelo, ukuxazulula izingxabano, nokuqinisekisa ubulungiswa empilweni yansuku zonke. Noma kungaba yingxabano yesivumelwano noma ingxabano yebhizinisi, simela okufanele.",
+      "why": "Kuhlanganisa konke ndawonye — ubulungiswa ekusebenzeni"
+    },
+    "employment": {
+      "title": "Umthetho Wezisebenzi Nabasebenzi",
+      "description": "Izixazululo eziphelele zomthetho wezisebenzi nabasebenzi ezivikela amalungelo akho emsebenzini",
+      "why": "Ukuvikela amalungelo abasebenzi nesithunzi"
+    },
+    "family": {
+      "title": "Umthetho Womndeni Nokuhlukaniswa",
+      "description": "Ukumelwa okunozwela ngesikhathi sokushintsha komndeni okunzima",
+      "why": "Ukuvikela imindeni ngesikhathi sobusha"
+    },
+    "estate": {
+      "title": "Ukuhlela Ifa Nokucubungula",
+      "description": "Vikela ifa lakho futhi uvikele ikusasa labathandekayo bakho",
+      "why": "Ukuthula kwengqondo kuwe nomndeni wakho"
+    },
+    "contract": {
+      "title": "Ukudweba Nokubuyekeza Izivumelwano",
+      "description": "Izinsizakalo zezivumelwano eziprofeshinali ezivikela izintshisekelo zakho",
+      "why": "Ukuvimbela izingxabano zingakenzeki"
+    },
+    "debt": {
+      "title": "Ukuqoqa Izikweletu",
+      "description": "Izinsizakalo zokubuyiswa kwezikweletu ezisebenzayo ukuvikela ibhizinisi lakho",
+      "why": "Ukubuyisela okuyilungelo lakho"
+    },
+    "criminal": {
+      "title": "Ukuzivikela Ebugebenguini",
+      "description": "Ukumelwa kokuzivikela ebugebenguini okunolwazi oluvikela inkululeko yakho",
+      "why": "Amalungelo akho, ikusasa lakho, inkululeko yakho"
+    }
+  },
+  "contact": {
+    "title": "Xhumana",
+    "titleHighlight": "Nathi",
+    "subtitle": "Sithinte namuhla ukuze uthole iseluleko",
+    "phone": "Ifoni",
+    "email": "I-imeyili",
+    "office": "Ihhovisi",
+    "regus": "Indawo Yebhizinisi Yase-Regus",
+    "address": "303 Anton Lembede Street, Ipulangwe lesi-5<br />Durban Club Place, eThekwini, 4001",
+    "whatsapp": "Sithumelele ku-WhatsApp",
+    "form": {
+      "name": "Igama Eliphelele",
+      "namePlaceholder": "Igama lakho",
+      "email": "I-imeyili",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Ifoni",
+      "phonePlaceholder": "079 xxx xxxx",
+      "service": "Insizakalo Edingekayo",
+      "servicePlaceholder": "Khetha insizakalo",
+      "message": "Umlayezo",
+      "messagePlaceholder": "Sitshele ngendaba yakho yomthetho",
+      "submit": "Thumela Umlayezo",
+      "sending": "Kuyathunyelwa...",
+      "success": "Umlayezo uthunyelwe ngempumelelo!",
+      "successDesc": "Siyabonga ngokuthinta. Sizokuphendula emahoreni angama-24.",
+      "error": "Kukhona okungahambi kahle",
+      "errorDesc": "Sicela uzame futhi noma usithinte ngqo ngocingo noma nge-imeyili."
+    },
+    "map": {
+      "title": "Vakashela Ihhovisi Lethu",
+      "directions": "Thola Izikhombisi Kuya Ku-Regus"
+    },
+    "hours": {
+      "title": "Amahora Ehhovisi",
+      "weekdays": "UMsombuluko - ULwesihlanu: 8:00 AM - 5:00 PM",
+      "saturday": "UMgqibelo: Ngokufaka Isikhathi",
+      "sunday": "ISonto: Kuvalwe"
+    }
+  },
+  "whyChoose": {
+    "title": "Kungani Ukhetha",
+    "titleHighlight": "I-LS Gumede Attorneys",
+    "personal": {
+      "title": "Ukunakwa Komuntu Ngamunye",
+      "description": "Wonke amakhasimende asebenza ngqo nami — awadluliselwa esuka edesikini kuya kwesinye. Uthola ukuhlanganyela kwami siqu kusuka ekuxoxeni kuze kube sekuxazululweni. Asiphathi amakhasimende njengamafayela; siwaphatha njengabantu."
+    },
+    "commitment": {
+      "title": "Ukuzinikela Okufakazelwe",
+      "description": "Ngithatha wonke amacala siqu futhi ngilwela sengathi uyicala lami. Ukugxila kwami akukwiningi, kodwa kumphumela — ukuthola imiphumela yangempela nokwakha ukwethenjwa kwempilo yonke."
+    },
+    "integrity": {
+      "title": "Ubuqotho Nemiphumela",
+      "description": "Ngiqotho ngamathuba akho, sobala ngezindleko, futhi ngingaloki ekuzuzeleni imiphumela efanele. Ukugxila kwami akukuphumelela kuphela — kukwenza okulungile kuwe."
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} I-LS Gumede Attorneys. Wonke amalungelo agodliwe.",
+    "tagline": "Ukuphakama komthetho ngobuqotho"
+  }
+}

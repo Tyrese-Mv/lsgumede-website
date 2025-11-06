@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 import MagneticButton from './MagneticButton'
 import TextReveal from './TextReveal'
 
 const Hero = () => {
+  const { t } = useTranslation()
   const scrollToSection = (id) => {
     const element = document.getElementById(id)
     if (element) {
@@ -27,7 +29,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.1, duration: 0.6 }}
             >
-              <span className="text-brand-gold/60 text-sm uppercase tracking-wider">100% Black-Owned Law Firm</span>
+              <span className="text-brand-gold/60 text-sm uppercase tracking-wider">{t('hero.badge')}</span>
             </motion.div>
 
             <motion.h2
@@ -36,9 +38,9 @@ const Hero = () => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              <TextReveal>Standing for</TextReveal>
+              <TextReveal>{t('hero.title')}</TextReveal>
               <span className="block text-brand-gold">
-                <TextReveal>the Voiceless</TextReveal>
+                <TextReveal>{t('hero.titleHighlight')}</TextReveal>
               </span>
             </motion.h2>
 
@@ -48,7 +50,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Justice is not reserved only for those who can afford it. We give people hope where there seems to be none, and ensure fairness is accessible to all.
+              {t('hero.description')}
             </motion.p>
 
             <motion.p
@@ -57,7 +59,7 @@ const Hero = () => {
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5, duration: 0.8 }}
             >
-              "Stand for the truth, even if you stand alone."
+              "{t('hero.quote')}"
             </motion.p>
 
             <motion.div
@@ -70,13 +72,13 @@ const Hero = () => {
                 onClick={() => scrollToSection('contact')}
                 className="bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-8 py-4 rounded-lg font-semibold text-center transition-all duration-300"
               >
-                Free Consultation
+                {t('hero.cta.consultation')}
               </MagneticButton>
               <MagneticButton
                 onClick={() => scrollToSection('services')}
                 className="border-2 border-brand-gold text-brand-gold hover:bg-brand-gold hover:text-brand-brown px-8 py-4 rounded-lg font-semibold text-center transition-all duration-300"
               >
-                Our Services
+                {t('hero.cta.services')}
               </MagneticButton>
             </motion.div>
           </motion.div>

@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "100% Black-Owned Law Firm",
+    "title": "Standing for",
+    "titleHighlight": "the Voiceless",
+    "description": "Justice is not reserved only for those who can afford it. We give people hope where there seems to be none, and ensure fairness is accessible to all.",
+    "quote": "Stand for the truth, even if you stand alone.",
+    "cta": {
+      "consultation": "Free Consultation",
+      "services": "Our Services"
+    }
+  },
+  "stats": {
+    "cases": "Cases Handled",
+    "success": "Success Rate",
+    "experience": "Years Experience",
+    "clients": "Happy Clients"
+  },
+  "services": {
+    "title": "Our",
+    "titleHighlight": "Services",
+    "subtitle": "Comprehensive legal services with integrity and excellence",
+    "raf": {
+      "title": "Personal Injury (RAF)",
+      "description": "Road Accident Fund claims allow me to help victims rebuild their lives after devastating accidents. We handle every detail so you can focus on recovery.",
+      "why": "Goes to the heart of human dignity"
+    },
+    "medical": {
+      "title": "Medical Negligence",
+      "description": "When those entrusted with our care fail to meet their duty, we demand accountability. You deserved better, and we fight to make that known.",
+      "why": "Holding healthcare professionals accountable"
+    },
+    "arrest": {
+      "title": "Unlawful Arrest",
+      "description": "About restoring dignity to those who have been wronged by the very system meant to protect them. If you've been detained without evidence, we fight for your rights.",
+      "why": "Restoring dignity and securing compensation"
+    },
+    "civil": {
+      "title": "Civil Litigation",
+      "description": "Defending rights, resolving disputes, and ensuring fairness in everyday life. Whether it's a contract dispute or business conflict, we stand for what's right.",
+      "why": "Ties everything together — justice in action"
+    },
+    "employment": {
+      "title": "Employment & Labour Law",
+      "description": "Comprehensive employment and labour law solutions protecting your workplace rights",
+      "why": "Protecting workers' rights and dignity"
+    },
+    "family": {
+      "title": "Family and Divorce Law",
+      "description": "Compassionate representation during difficult family transitions",
+      "why": "Protecting families during vulnerable times"
+    },
+    "estate": {
+      "title": "Estate Planning and Probate",
+      "description": "Secure your legacy and protect your loved ones' future",
+      "why": "Peace of mind for you and your family"
+    },
+    "contract": {
+      "title": "Contract Drafting & Reviews",
+      "description": "Professional contract services protecting your interests",
+      "why": "Preventing disputes before they happen"
+    },
+    "debt": {
+      "title": "Debt Collection",
+      "description": "Effective debt recovery services to protect your business",
+      "why": "Recovering what's rightfully yours"
+    },
+    "criminal": {
+      "title": "Criminal Defense",
+      "description": "Experienced criminal defense representation protecting your freedom",
+      "why": "Your rights, your future, your freedom"
+    }
+  },
+  "contact": {
+    "title": "Get in",
+    "titleHighlight": "Touch",
+    "subtitle": "Contact us today for a consultation",
+    "phone": "Phone",
+    "email": "Email",
+    "office": "Office",
+    "regus": "Regus Business Centre",
+    "address": "303 Anton Lembede Street, 5th Floor<br />Durban Club Place, Durban, 4001",
+    "whatsapp": "Message us on WhatsApp",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone",
+      "phonePlaceholder": "079 xxx xxxx",
+      "service": "Service Needed",
+      "servicePlaceholder": "Select a service",
+      "message": "Message",
+      "messagePlaceholder": "Tell us about your legal matter",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully!",
+      "successDesc": "Thank you for reaching out. We'll get back to you within 24 hours.",
+      "error": "Something went wrong",
+      "errorDesc": "Please try again or contact us directly via phone or email."
+    },
+    "map": {
+      "title": "Visit Our Office",
+      "directions": "Get Directions to Regus"
+    },
+    "hours": {
+      "title": "Office Hours",
+      "weekdays": "Monday - Friday: 8:00 AM - 5:00 PM",
+      "saturday": "Saturday: By Appointment",
+      "sunday": "Sunday: Closed"
+    }
+  },
+  "whyChoose": {
+    "title": "Why Choose",
+    "titleHighlight": "LS Gumede Attorneys",
+    "personal": {
+      "title": "Personal Attention",
+      "description": "Every client works directly with me — not passed around from desk to desk. You get my personal involvement from consultation to resolution. We don't treat clients as files; we treat them as people."
+    },
+    "commitment": {
+      "title": "Proven Commitment",
+      "description": "I take every case personally and fight as if it were my own matter. My focus isn't on volume, but on impact — getting real results and building lifelong trust."
+    },
+    "integrity": {
+      "title": "Integrity & Results",
+      "description": "I'm honest about your chances, transparent about costs, and relentless about achieving fair outcomes. My focus is not just on winning — it's on doing right by you."
+    }
+  },
+  "footer": {
+    "copyright": "© {{year}} LS Gumede Attorneys. All rights reserved.",
+    "tagline": "Legal excellence with integrity"
+  }
+}

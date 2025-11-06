@@ -1,9 +1,12 @@
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 import MagneticButton from './MagneticButton'
+import LanguageSwitcher from './LanguageSwitcher'
 
 const Header = () => {
+  const { t } = useTranslation()
   const [scrolled, setScrolled] = useState(false)
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const location = useLocation()
@@ -21,10 +24,10 @@ const Header = () => {
   }, [location])
 
   const navLinks = [
-    { name: 'Home', path: '/' },
-    { name: 'About', path: '/about' },
-    { name: 'Services', path: '/services' },
-    { name: 'Contact', path: '/contact' },
+    { name: t('nav.home'), path: '/' },
+    { name: t('nav.about'), path: '/about' },
+    { name: t('nav.services'), path: '/services' },
+    { name: t('nav.contact'), path: '/contact' },
   ]
 
   const isActive = (path) => location.pathname === path
@@ -83,6 +86,7 @@ const Header = () => {
           </nav>
 
           <div className="flex items-center gap-4">
+            <LanguageSwitcher />
             <a href="tel:0790134813" className="hidden md:inline-block">
               <MagneticButton className="bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-6 py-3 rounded-lg font-semibold transition-all duration-300">
                 CALL NOW
@@ -124,6 +128,9 @@ const Header = () => {
                 </motion.div>
               </Link>
             ))}
+            <div className="py-2">
+              <LanguageSwitcher />
+            </div>
             <a href="tel:0790134813" className="block">
               <motion.div
                 className="bg-brand-gold text-brand-brown px-6 py-3 rounded-lg font-semibold text-center"
