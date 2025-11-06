@@ -5,6 +5,7 @@ import ScrollProgress from './ScrollProgress'
 import AnimatedBackground from './AnimatedBackground'
 import FloatingParticles from './FloatingParticles'
 import MorphingBlobs from './MorphingBlobs'
+import FloatingWhatsApp from './FloatingWhatsApp'
 
 const Layout = () => {
   return (
@@ -13,6 +14,7 @@ const Layout = () => {
       <AnimatedBackground />
       <FloatingParticles />
       <MorphingBlobs />
+      <FloatingWhatsApp />
       <Header />
       <main>
         <Outlet />

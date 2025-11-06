@@ -21,25 +21,43 @@ const Hero = () => {
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8 }}
           >
+            <motion.div
+              className="mb-4"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.1, duration: 0.6 }}
+            >
+              <span className="text-brand-gold/60 text-sm uppercase tracking-wider">100% Black-Owned Law Firm</span>
+            </motion.div>
+
             <motion.h2
               className="font-heading text-5xl md:text-6xl mb-6 leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              <TextReveal>Expert Legal</TextReveal>
+              <TextReveal>Standing for</TextReveal>
               <span className="block text-brand-gold">
-                <TextReveal>Representation</TextReveal>
+                <TextReveal>the Voiceless</TextReveal>
               </span>
             </motion.h2>
 
             <motion.p
-              className="text-lg text-gray-300 mb-8 leading-relaxed"
+              className="text-lg text-gray-300 mb-4 leading-relaxed"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.4, duration: 0.8 }}
             >
-              Professional legal services in Durban. We provide comprehensive legal solutions tailored to your needs with integrity and excellence.
+              Justice is not reserved only for those who can afford it. We give people hope where there seems to be none, and ensure fairness is accessible to all.
+            </motion.p>
+
+            <motion.p
+              className="text-base text-gray-400 mb-8 leading-relaxed italic border-l-2 border-brand-gold/40 pl-4"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ delay: 0.5, duration: 0.8 }}
+            >
+              "Stand for the truth, even if you stand alone."
             </motion.p>
 
             <motion.div

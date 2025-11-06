@@ -7,18 +7,53 @@ const Contact = () => {
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
   const [selectedService, setSelectedService] = useState('')
+  const [isSubmitting, setIsSubmitting] = useState(false)
+  const [submitStatus, setSubmitStatus] = useState(null) // 'success', 'error', or null
 
   const serviceOptions = [
+    { value: 'personal-injury', label: 'Personal Injury (RAF)' },
+    { value: 'medical-negligence', label: 'Medical Negligence' },
+    { value: 'unlawful-arrest', label: 'Unlawful Arrest' },
     { value: 'civil-litigation', label: 'Civil Litigation' },
     { value: 'employment-labour', label: 'Employment & Labour Law' },
-    { value: 'contract-drafting', label: 'Contract Drafting & Reviews' },
     { value: 'family-divorce', label: 'Family and Divorce Law' },
     { value: 'estate-planning', label: 'Estate Planning and Probate' },
-    { value: 'personal-injury', label: 'Personal Injury (RAF)' },
-    { value: 'unlawful-arrest', label: 'Unlawful Arrest' },
+    { value: 'contract-drafting', label: 'Contract Drafting & Reviews' },
     { value: 'debt-collection', label: 'Debt Collection' },
     { value: 'criminal-defense', label: 'Criminal Defense' },
   ]
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    setIsSubmitting(true)
+    setSubmitStatus(null)
+
+    try {
+      const formData = new FormData(e.target)
+      formData.append('service', selectedService)
+
+      // Replace 'YOUR_FORM_ID' with actual Formspree ID
+      const response = await fetch('https://formspree.io/f/YOUR_FORM_ID', {
+        method: 'POST',
+        body: formData,
+        headers: {
+          'Accept': 'application/json'
+        }
+      })
+
+      if (response.ok) {
+        setSubmitStatus('success')
+        e.target.reset()
+        setSelectedService('')
+      } else {
+        setSubmitStatus('error')
+      }
+    } catch (error) {
+      setSubmitStatus('error')
+    } finally {
+      setIsSubmitting(false)
+    }
+  }
 
   return (
     <section id="contact" className="py-20 px-4 bg-gradient-to-b from-black to-brand-brown">
@@ -94,7 +129,12 @@ const Contact = () => {
               </div>
               <div>
                 <h3 className="font-heading text-lg text-brand-gold mb-1">Office</h3>
-                <p className="text-gray-300">303 Anton Lembede Street, 5<sup>th</sup> Floor<br />Durban Club Place, Regus<br />Durban, 4001</p>
+                <p className="text-gray-300">
+                  <span className="font-semibold">Regus Business Centre</span><br />
+                  303 Anton Lembede Street<br />
+                  5<sup>th</sup> Floor, Durban Club Place<br />
+                  Durban, 4001
+                </p>
               </div>
             </motion.div>
 
@@ -121,7 +161,29 @@ const Contact = () => {
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" className="space-y-6">
+            {submitStatus === 'success' && (
+              <motion.div
+                className="bg-green-500/20 border border-green-500/50 text-green-300 p-4 rounded-lg mb-6"
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+              >
+                <p className="font-semibold">Message sent successfully!</p>
+                <p className="text-sm mt-1">Thank you for reaching out. We'll get back to you within 24 hours.</p>
+              </motion.div>
+            )}
+
+            {submitStatus === 'error' && (
+              <motion.div
+                className="bg-red-500/20 border border-red-500/50 text-red-300 p-4 rounded-lg mb-6"
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+              >
+                <p className="font-semibold">Something went wrong</p>
+                <p className="text-sm mt-1">Please try again or contact us directly via phone or email.</p>
+              </motion.div>
+            )}
+
+            <form onSubmit={handleSubmit} className="space-y-6">
               <motion.div whileFocus={{ scale: 1.02 }}>
                 <label htmlFor="name" className="block text-sm font-medium text-brand-gold mb-2">Full Name</label>
                 <input
@@ -181,15 +243,100 @@ const Contact = () => {
 
               <motion.button
                 type="submit"
-                className="w-full bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-6 py-4 rounded-lg font-semibold transition-all duration-300"
-                whileHover={{ scale: 1.05, y: -2 }}
-                whileTap={{ scale: 0.95 }}
+                disabled={isSubmitting}
+                className="w-full bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-6 py-4 rounded-lg font-semibold transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2"
+                whileHover={!isSubmitting ? { scale: 1.05, y: -2 } : {}}
+                whileTap={!isSubmitting ? { scale: 0.95 } : {}}
               >
-                Send Message
+                {isSubmitting ? (
+                  <>
+                    <svg className="animate-spin h-5 w-5" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                      <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
+                      <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                    </svg>
+                    Sending...
+                  </>
+                ) : (
+                  'Send Message'
+                )}
               </motion.button>
             </form>
           </motion.div>
         </div>
+
+        {/* Google Maps Section */}
+        <motion.div
+          className="mt-16"
+          initial={{ opacity: 0, y: 30 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 30 }}
+          transition={{ duration: 0.6, delay: 0.6 }}
+        >
+          <div className="text-center mb-8">
+            <h3 className="font-heading text-3xl md:text-4xl text-brand-gold mb-2">
+              Visit Our Office
+            </h3>
+            <p className="text-gray-400 text-lg">
+              <span className="font-semibold text-brand-gold">Regus Business Centre</span>
+            </p>
+            <p className="text-gray-400 mt-2">
+              303 Anton Lembede Street, 5th Floor<br />
+              Durban Club Place, Durban, 4001
+            </p>
+          </div>
+
+          <motion.div
+            className="relative w-full h-[400px] md:h-[500px] rounded-2xl overflow-hidden border-2 border-brand-gold/20 shadow-2xl"
+            whileHover={{ borderColor: 'rgba(201, 169, 97, 0.4)' }}
+            transition={{ duration: 0.3 }}
+          >
+            {/* Google Maps Embed - Regus Durban Club Place */}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3460.1447308512065!2d31.021653874464633!3d-29.86009962275048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1ef7a9cd2d14dfcb%3A0x5d1f3aaee9fd7985!2sRegus!5e0!3m2!1sen!2sza!4v1762434041142!5m2!1sen!2sza"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen=""
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="LS Gumede Attorneys - Regus Office Location"
+              className="grayscale-[30%] hover:grayscale-0 transition-all duration-500"
+            ></iframe>
+
+            {/* Overlay with directions button */}
+            <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
+              <motion.a
+                href="https://www.google.com/maps/dir/?api=1&destination=Regus+Durban+Club+Place,+303+Anton+Lembede+Street,+Durban,+4001"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-6 py-3 rounded-lg font-semibold shadow-lg flex items-center gap-2"
+                whileHover={{ scale: 1.05, y: -2 }}
+                whileTap={{ scale: 0.95 }}
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
+                </svg>
+                Get Directions to Regus
+              </motion.a>
+            </div>
+          </motion.div>
+
+          {/* Office Hours */}
+          <motion.div
+            className="mt-8 text-center"
+            initial={{ opacity: 0 }}
+            animate={isInView ? { opacity: 1 } : { opacity: 0 }}
+            transition={{ duration: 0.6, delay: 0.8 }}
+          >
+            <div className="inline-block bg-white/5 backdrop-blur-sm px-8 py-4 rounded-xl border border-brand-gold/20">
+              <h4 className="font-heading text-brand-gold mb-2">Office Hours</h4>
+              <div className="text-gray-300 space-y-1">
+                <p>Monday - Friday: 8:00 AM - 5:00 PM</p>
+                <p>Saturday: By Appointment</p>
+                <p>Sunday: Closed</p>
+              </div>
+            </div>
+          </motion.div>
+        </motion.div>
       </div>
     </section>
   )
