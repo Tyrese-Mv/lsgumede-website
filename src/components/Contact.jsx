@@ -27,18 +27,29 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault()
+    console.log('Form submit triggered')
     setIsSubmitting(true)
     setSubmitStatus(null)
 
     try {
       const formData = new FormData(e.target)
 
-      // Add the selected service to form data
-      if (selectedService) {
-        formData.append('Service Needed', serviceOptions.find(s => s.value === selectedService)?.label || selectedService)
+      // Log form data for debugging
+      console.log('Form data entries:')
+      for (let pair of formData.entries()) {
+        console.log(pair[0] + ': ' + pair[1])
       }
 
-      // Using FormSubmit - replace with your email
+      // Add the selected service to form data
+      if (selectedService) {
+        const serviceLabel = serviceOptions.find(s => s.value === selectedService)?.label || selectedService
+        formData.set('Service Needed', serviceLabel)
+        console.log('Selected service:', serviceLabel)
+      }
+
+      console.log('Submitting to FormSubmit...')
+
+      // Using FormSubmit
       const response = await fetch('https://formsubmit.co/ajax/Lsgumedeattorneys@gmail.com', {
         method: 'POST',
         body: formData,
@@ -47,13 +58,16 @@ const Contact = () => {
         }
       })
 
+      console.log('Response status:', response.status)
       const data = await response.json()
+      console.log('Response data:', data)
 
       if (response.ok && data.success !== "false") {
         setSubmitStatus('success')
         e.target.reset()
         setSelectedService('')
       } else {
+        console.error('Form submission failed:', data)
         setSubmitStatus('error')
       }
     } catch (error) {

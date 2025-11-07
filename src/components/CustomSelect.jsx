@@ -78,8 +78,6 @@ const CustomSelect = ({ options, value, onChange, placeholder = "Select an optio
         )}
       </AnimatePresence>
 
-      {/* Hidden input for form submission */}
-      <input type="hidden" name="service" value={selectedOption} />
     </div>
   )
 }
