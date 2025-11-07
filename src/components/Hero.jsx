@@ -83,36 +83,33 @@ const Hero = () => {
             </motion.div>
           </motion.div>
 
-          {/* Right Image */}
+          {/* Right - 3D Gavel Illustration */}
           <motion.div
             className="relative"
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.8 }}
           >
-            <motion.div
-              className="relative rounded-full overflow-hidden border-4 border-brand-gold aspect-square"
-              whileHover={{ scale: 1.05, rotate: 5 }}
-              transition={{ duration: 0.3 }}
-            >
-              <img
-                src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=600&h=600&fit=crop"
-                alt="Legal Gavel"
-                className="w-full h-full object-cover"
-              />
-            </motion.div>
-            <motion.div
-              className="absolute -bottom-4 -left-4 w-24 h-24 bg-brand-gold/20 rounded-full blur-xl"
-              style={{ willChange: 'transform, opacity' }}
-              animate={{ scale: [1, 1.2, 1], opacity: [0.3, 0.5, 0.3] }}
-              transition={{ duration: 3, repeat: Infinity }}
-            />
-            <motion.div
-              className="absolute -top-4 -right-4 w-32 h-32 bg-brand-gold/10 rounded-full blur-xl"
-              style={{ willChange: 'transform, opacity' }}
-              animate={{ scale: [1, 1.3, 1], opacity: [0.2, 0.4, 0.2] }}
-              transition={{ duration: 4, repeat: Infinity }}
-            />
+            {/* Main Gavel Container */}
+            <div className="relative">
+              {/* Glow effect behind gavel */}
+              <div className="absolute inset-0 bg-gradient-radial from-brand-gold/30 via-brand-gold/10 to-transparent blur-3xl scale-110" />
+
+              {/* Gavel Image */}
+              <div
+                className="relative z-10 drop-shadow-2xl"
+                style={{
+                  filter: 'drop-shadow(0 25px 50px rgba(0, 0, 0, 0.5))'
+                }}
+              >
+                <img
+                  src="/gavel.png"
+                  alt="Wooden gavel representing justice and legal authority - LS Gumede Attorneys"
+                  className="w-full h-auto"
+                  loading="eager"
+                />
+              </div>
+            </div>
           </motion.div>
         </div>
       </div>
