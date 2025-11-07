@@ -12,7 +12,7 @@
     "description": "Justice is not reserved only for those who can afford it. We give people hope where there seems to be none, and ensure fairness is accessible to all.",
     "quote": "Stand for the truth, even if you stand alone.",
     "cta": {
-      "consultation": "Free Consultation",
+      "consultation": "Consultation",
       "services": "Our Services"
     }
   },
@@ -142,7 +142,7 @@
     "titleHighlight": "You May Have",
     "subtitle": "These are the questions I hear most often from new clients. If you have other concerns, don't hesitate to ask during our consultation.",
     "stillHaveQuestions": "Still have questions? I'm here to help.",
-    "scheduleCta": "Schedule a Free Consultation",
+    "scheduleCta": "Schedule a Consultation",
     "questions": [
       {
         "q": "Do I have a strong case?",
@@ -311,7 +311,7 @@
     },
     "cta": {
       "title": "Need Legal Assistance?",
-      "description": "Don't see the service you need? Contact us today for a free consultation to discuss your legal matter.",
+      "description": "Don't see the service you need? Contact us today for a consultation to discuss your legal matter.",
       "button": "Schedule a Consultation"
     }
   }

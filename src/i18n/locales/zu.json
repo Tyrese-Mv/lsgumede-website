@@ -12,7 +12,7 @@
     "description": "Ubulungiswa abuhleliwe kuphela labo abangakuthenga. Sinika abantu ithemba lapho kungathi alikho, futhi siqinisekisa ukuthi ubulungiswa buyafika kubo bonke.",
     "quote": "Mela iqiniso, ngisho noma ume wedwa.",
     "cta": {
-      "consultation": "Iseluleko Samahhala",
+      "consultation": "Thola Iseluleko",
       "services": "Izinsizakalo Zethu"
     }
   },
@@ -142,7 +142,7 @@
     "titleHighlight": "Ongase Uyibone",
     "subtitle": "Lena yimibuzo engiyizwa kakhulu kumakhasimende amasha. Uma unezinye izinkathazo, ungabeki izinsolo ukubuza ngesikhathi sokuseluleka kwakho.",
     "stillHaveQuestions": "Usenamibuzo? Ngilapha ukusiza.",
-    "scheduleCta": "Dweba Isikhathi Sokuseluleka Mahhala",
+    "scheduleCta": "Thola Isikhathi Sokuseluleka",
     "questions": [
       {
         "q": "Ngabe nginecala eliqinile?",
@@ -311,8 +311,8 @@
     },
     "cta": {
       "title": "Udinga Usizo Lwezomthetho?",
-      "description": "Awuboni insizakalo oyidingayo? Sithinte namuhla ukuze uthole iseluleko samahhala ukuze sixoxe ngendaba yakho yomthetho.",
-      "button": "Dweba Isikhathi Sokuseluleka"
+      "description": "Awuboni insizakalo oyidingayo? Sithinte namuhla ukuze uthole iseluleko ukuze sixoxe ngendaba yakho yomthetho.",
+      "button": "Thola Isikhathi Sokuseluleka"
     }
   }
 }
