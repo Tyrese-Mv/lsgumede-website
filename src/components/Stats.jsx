@@ -1,17 +1,19 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 import CountUp from './CountUp'
 
 const Stats = () => {
+  const { t } = useTranslation()
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const stats = [
-    { value: 500, suffix: '+', label: 'Cases Handled' },
-    { value: 98, suffix: '%', label: 'Success Rate' },
-    { value: 15, suffix: '+', label: 'Years Experience' },
-    { value: 250, suffix: '+', label: 'Happy Clients' },
+    { value: 500, suffix: '+', label: t('stats.cases') },
+    { value: 98, suffix: '%', label: t('stats.success') },
+    { value: 15, suffix: '+', label: t('stats.experience') },
+    { value: 250, suffix: '+', label: t('stats.clients') },
   ]
 
   return (

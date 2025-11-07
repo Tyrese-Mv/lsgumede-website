@@ -135,5 +135,184 @@
   "footer": {
     "copyright": "© {{year}} LS Gumede Attorneys. All rights reserved.",
     "tagline": "Legal excellence with integrity"
+  },
+  "faq": {
+    "badge": "Common Questions",
+    "title": "Questions",
+    "titleHighlight": "You May Have",
+    "subtitle": "These are the questions I hear most often from new clients. If you have other concerns, don't hesitate to ask during our consultation.",
+    "stillHaveQuestions": "Still have questions? I'm here to help.",
+    "scheduleCta": "Schedule a Free Consultation",
+    "questions": [
+      {
+        "q": "Do I have a strong case?",
+        "a": "Every case is unique. During our first consultation, I'll review your situation honestly and give you a clear assessment of your chances. I only take cases where I truly believe I can make a difference. If your case has merit, I'll fight for you with everything I have."
+      },
+      {
+        "q": "How long will my case take?",
+        "a": "The timeline varies depending on the complexity of your case and the legal processes involved. During our consultation, I'll provide you with a realistic timeframe based on similar cases. I'll keep you informed every step of the way, so you always know where we stand."
+      },
+      {
+        "q": "What are your fees, and can we make payment arrangements?",
+        "a": "I believe legal representation should be accessible. During our first meeting, I'll be transparent about costs and discuss payment arrangements that work for your situation. My focus is on helping you, not creating financial stress. Let's talk about what's possible."
+      },
+      {
+        "q": "Will I need to go to court?",
+        "a": "Not necessarily. Many cases are resolved through negotiation and settlement without ever going to court. A good lawyer helps you avoid unnecessary litigation, saving you time, money, and stress. If court is necessary, I'll be there with you, fully prepared to fight for your rights."
+      },
+      {
+        "q": "What documents must I bring or prepare?",
+        "a": "Bring whatever documents you have related to your case — police reports, medical records, contracts, correspondence, photos, or any other relevant materials. Don't worry if you don't have everything. We'll work together to gather what we need. Just come with your truth and your trust."
+      },
+      {
+        "q": "How will I be updated about my case?",
+        "a": "Communication is key. I use WhatsApp, email, phone calls, and in-person meetings to keep you informed. You'll never wonder what's happening with your case. I'm accessible, responsive, and committed to ensuring you feel involved in your journey to justice."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Real Cases, Real Impact",
+    "title": "Stories of",
+    "titleHighlight": "Justice Restored",
+    "subtitle": "Each case is a human story that deserves to be told and fought for with integrity and passion. Here are a few examples of clients we've helped.",
+    "quote": "Winning a case is not about ego or victory — it's about relief and restoration. Seeing the look on a client's face when justice is finally served — that moment when tears turn into gratitude — that's the real reward.",
+    "quoteAuthor": "— Lindokuhle Gumede",
+    "situationLabel": "The Situation",
+    "outcomeLabel": "The Outcome",
+    "cases": [
+      {
+        "type": "Unlawful Arrest",
+        "situation": "A client who had been wrongfully arrested and detained for days without any evidence. When he came to us, he had lost faith in the justice system — he felt powerless and humiliated.",
+        "outcome": "We investigated thoroughly and fought relentlessly until we secured his release and obtained compensation for the violation of his rights. Watching him regain his dignity reminded us why we do this work.",
+        "emotion": "From hopeless to vindicated"
+      },
+      {
+        "type": "Road Accident Fund (RAF)",
+        "situation": "After a devastating accident, the client was overwhelmed by medical bills, unable to work, and didn't know where to turn. The compensation process seemed impossible to navigate alone.",
+        "outcome": "We handled every detail of the RAF claim, securing compensation that allowed them to focus on recovery and rebuild their life. They went from feeling abandoned by the system to feeling supported and hopeful.",
+        "emotion": "From overwhelmed to rebuilding"
+      },
+      {
+        "type": "Civil Litigation",
+        "situation": "A small business owner facing a complex contractual dispute that threatened to bankrupt their company. They felt intimidated by the opposing party's resources and legal team.",
+        "outcome": "Through strategic negotiation and unwavering commitment, we achieved a fair settlement that protected their business and their livelihood. Justice isn't about who has more money — it's about what's right.",
+        "emotion": "From intimidated to empowered"
+      }
+    ]
+  },
+  "whatToExpect": {
+    "badge": "Your Journey",
+    "title": "What to",
+    "titleHighlight": "Expect",
+    "subtitle": "The legal process doesn't have to be confusing or intimidating. Here's exactly how we'll work together to achieve justice.",
+    "quote": "You don't need to come with all the answers — that's my job. Come with your truth, your documents, and your trust. Together, we'll find the best path forward.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "First Contact",
+        "description": "Reach out via phone, WhatsApp, email, or our contact form. We'll schedule a consultation at a time that works for you. No judgment, no pressure — just a conversation.",
+        "details": [
+          "Available via WhatsApp, phone, email",
+          "Flexible scheduling",
+          "Initial questions answered"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Office Consultation",
+        "description": "We meet in person to discuss your case in detail. I'll listen to your story, review your documents, and give you an honest assessment. You'll leave knowing exactly where you stand.",
+        "details": [
+          "Clear case assessment",
+          "Transparent fee discussion",
+          "Timeline expectations",
+          "Payment arrangements available"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Throughout Your Case",
+        "description": "Once we start, you're never left wondering. I'll keep you informed via WhatsApp, calls, emails, and meetings. You'll understand every step of the process and every decision we make together.",
+        "details": [
+          "Regular case updates",
+          "Direct access to me",
+          "Clear communication in plain language",
+          "Involved in every decision"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Resolution",
+        "description": "Whether through negotiation, settlement, or court victory, we work relentlessly toward the best possible outcome. When justice is served, we celebrate together — knowing we did right by you.",
+        "details": [
+          "Best possible outcome pursued",
+          "Court representation if needed",
+          "Settlement negotiation",
+          "Justice served with dignity"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "title": "A Voice for",
+      "titleHighlight": "Justice & Dignity",
+      "subtitle": "Founded on the belief that every person deserves to be heard, respected, and represented with unwavering integrity."
+    },
+    "story": {
+      "title": "My Story",
+      "paragraph1": "From a young age, I was deeply moved by the struggles of ordinary people who often had no one to speak for them. I witnessed how easily the vulnerable can be silenced by complex legal systems and how a single voice — informed, determined, and compassionate — can change someone's entire life.",
+      "paragraph2": "Becoming a lawyer was never just a career choice for me; it was a calling to stand for fairness, to give people hope where there seems to be none, and to ensure that justice is not reserved only for those who can afford it.",
+      "paragraph3": "I founded my own law firm because I wanted to practice law on my own terms — with heart, accessibility, and genuine care for my clients. In large firms, clients often become just case numbers. I wanted to create a space where every client feels heard, respected, and involved in their journey to justice.",
+      "casesHandled": "Cases Handled",
+      "yearsExperience": "Years Experience",
+      "successRate": "Success Rate"
+    },
+    "values": {
+      "title": "Our Core Values",
+      "subtitle": "The principles that guide our practice and define our commitment to excellence",
+      "integrity": {
+        "title": "Integrity",
+        "description": "Doing what's right, even when no one is watching. I will not take a case built on dishonesty or false claims. My commitment is to truth and justice, not just winning at any cost."
+      },
+      "compassion": {
+        "title": "Compassion",
+        "description": "Every case involves a human story deserving respect and empathy. You are not just a case number; you are a person with real fears, hopes, and rights."
+      },
+      "excellence": {
+        "title": "Excellence",
+        "description": "Giving my absolute best to every client, every time. My focus is not just on winning — it's on doing right by you and achieving fair outcomes."
+      },
+      "accountability": {
+        "title": "Accountability",
+        "description": "Standing by my clients and my word. When I take on your case, I fight for you as if it were my own matter."
+      },
+      "justice": {
+        "title": "Justice",
+        "description": "Ensuring fairness, dignity, and equality are upheld in all we do. True justice means balance — treating everyone with dignity regardless of background or wealth."
+      }
+    },
+    "leadership": {
+      "title": "Leadership",
+      "subtitle": "Guided by experience, driven by excellence",
+      "founderName": "Lindokuhle Gumede",
+      "founderTitle": "Founder & Principal Attorney",
+      "bio1": "With extensive experience across RAF claims, medical negligence, unlawful arrest, and civil litigation, Lindokuhle specializes in cases that go to the heart of human dignity. Each area reflects a commitment to people, not just paperwork.",
+      "bio2": "His typical day begins in court representing clients, followed by afternoons meeting with people who need guidance, reviewing evidence, and preparing documents. Between court appearances and consultations, he's returning calls, negotiating settlements, and mentoring young practitioners.",
+      "bio3": "\"If I wasn't a lawyer, I would still be helping people — probably as a teacher or social worker. I've always had a passion for empowering others, especially those who feel voiceless or overlooked.\"",
+      "bio4": "When not in the courtroom or office, Lindokuhle recharges by watching football and rugby. It's this balance of intensity and humanity that makes him not just an effective lawyer, but a trusted advocate who truly understands the people he serves.",
+      "expertiseTitle": "Areas of Expertise"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Our",
+      "titleHighlight": "Legal Services",
+      "subtitle": "Comprehensive legal solutions across multiple practice areas, tailored to meet your unique needs."
+    },
+    "cta": {
+      "title": "Need Legal Assistance?",
+      "description": "Don't see the service you need? Contact us today for a free consultation to discuss your legal matter.",
+      "button": "Schedule a Consultation"
+    }
   }
 }

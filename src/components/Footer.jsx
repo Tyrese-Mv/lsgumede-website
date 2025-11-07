@@ -1,6 +1,10 @@
 import { motion } from 'framer-motion'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+  const { t } = useTranslation()
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="bg-black border-t border-brand-gold/20 py-8 px-4">
       <div className="container mx-auto max-w-6xl">
@@ -11,8 +15,8 @@ const Footer = () => {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <p className="mb-2">&copy; 2025 LS Gumede Attorneys. All rights reserved.</p>
-          <p className="text-sm">Professional Legal Services | Durban, South Africa</p>
+          <p className="mb-2">{t('footer.copyright', { year: currentYear })}</p>
+          <p className="text-sm">{t('footer.tagline')}</p>
         </motion.div>
       </div>
     </footer>

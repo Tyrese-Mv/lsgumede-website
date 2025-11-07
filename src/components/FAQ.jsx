@@ -1,38 +1,15 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef, useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const FAQ = () => {
+  const { t } = useTranslation()
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
   const [openIndex, setOpenIndex] = useState(null)
 
-  const faqs = [
-    {
-      question: "Do I have a strong case?",
-      answer: "Every case is unique. During our first consultation, I'll review your situation honestly and give you a clear assessment of your chances. I only take cases where I truly believe I can make a difference. If your case has merit, I'll fight for you with everything I have."
-    },
-    {
-      question: "How long will my case take?",
-      answer: "The timeline varies depending on the complexity of your case and the legal processes involved. During our consultation, I'll provide you with a realistic timeframe based on similar cases. I'll keep you informed every step of the way, so you always know where we stand."
-    },
-    {
-      question: "What are your fees, and can we make payment arrangements?",
-      answer: "I believe legal representation should be accessible. During our first meeting, I'll be transparent about costs and discuss payment arrangements that work for your situation. My focus is on helping you, not creating financial stress. Let's talk about what's possible."
-    },
-    {
-      question: "Will I need to go to court?",
-      answer: "Not necessarily. Many cases are resolved through negotiation and settlement without ever going to court. A good lawyer helps you avoid unnecessary litigation, saving you time, money, and stress. If court is necessary, I'll be there with you, fully prepared to fight for your rights."
-    },
-    {
-      question: "What documents must I bring or prepare?",
-      answer: "Bring whatever documents you have related to your case — police reports, medical records, contracts, correspondence, photos, or any other relevant materials. Don't worry if you don't have everything. We'll work together to gather what we need. Just come with your truth and your trust."
-    },
-    {
-      question: "How will I be updated about my case?",
-      answer: "Communication is key. I use WhatsApp, email, phone calls, and in-person meetings to keep you informed. You'll never wonder what's happening with your case. I'm accessible, responsive, and committed to ensuring you feel involved in your journey to justice."
-    }
-  ]
+  const faqs = t('faq.questions', { returnObjects: true })
 
   return (
     <section id="faq" className="py-20 px-4 bg-gradient-to-b from-black to-brand-brown">
@@ -50,13 +27,13 @@ const FAQ = () => {
             animate={isInView ? { opacity: 1, scale: 1 } : { opacity: 0, scale: 0.8 }}
             transition={{ duration: 0.5 }}
           >
-            <span className="text-brand-gold/60 text-sm uppercase tracking-wider">Common Questions</span>
+            <span className="text-brand-gold/60 text-sm uppercase tracking-wider">{t('faq.badge')}</span>
           </motion.div>
           <h2 className="font-heading text-4xl md:text-5xl mb-4">
-            Questions <span className="gradient-text">You May Have</span>
+            {t('faq.title')} <span className="gradient-text">{t('faq.titleHighlight')}</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            These are the questions I hear most often from new clients. If you have other concerns, don't hesitate to ask during our consultation.
+            {t('faq.subtitle')}
           </p>
         </motion.div>
 
@@ -80,7 +57,7 @@ const FAQ = () => {
                 className="w-full text-left p-6 flex items-center justify-between group"
               >
                 <span className="font-heading text-lg md:text-xl text-white group-hover:text-brand-gold transition-colors pr-4">
-                  {faq.question}
+                  {faq.q}
                 </span>
                 <motion.div
                   animate={{ rotate: openIndex === index ? 180 : 0 }}
@@ -113,7 +90,7 @@ const FAQ = () => {
                 className="overflow-hidden"
               >
                 <div className="px-6 pb-6 text-gray-300 leading-relaxed">
-                  {faq.answer}
+                  {faq.a}
                 </div>
               </motion.div>
             </motion.div>
@@ -128,13 +105,13 @@ const FAQ = () => {
           transition={{ duration: 0.6, delay: 0.8 }}
         >
           <p className="text-gray-400 mb-6">
-            Still have questions? I'm here to help.
+            {t('faq.stillHaveQuestions')}
           </p>
           <a
             href="#contact"
             className="inline-block bg-brand-gold hover:bg-brand-gold/90 text-brand-brown px-8 py-3 rounded-lg font-semibold transition-all duration-300"
           >
-            Schedule a Free Consultation
+            {t('faq.scheduleCta')}
           </a>
         </motion.div>
       </div>

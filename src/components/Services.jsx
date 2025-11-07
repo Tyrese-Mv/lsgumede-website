@@ -1,109 +1,63 @@
 import { motion, useMotionValue, useSpring, useTransform } from 'framer-motion'
 import { useInView } from 'framer-motion'
 import { useRef } from 'react'
+import { useTranslation } from 'react-i18next'
 
-const services = [
-  {
-    title: 'Personal Injury (RAF)',
-    description: 'Road Accident Fund claims allow me to help victims rebuild their lives after devastating accidents. We handle every detail so you can focus on recovery.',
-    whyMatters: 'Goes to the heart of human dignity',
-    icon: (
+const getServiceIcon = (type) => {
+  const icons = {
+    raf: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Medical Negligence',
-    description: 'When those entrusted with our care fail to meet their duty, we demand accountability. You deserved better, and we fight to make that known.',
-    whyMatters: 'Holding healthcare professionals accountable',
-    icon: (
+    medical: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Unlawful Arrest',
-    description: 'About restoring dignity to those who have been wronged by the very system meant to protect them. If you\'ve been detained without evidence, we fight for your rights.',
-    whyMatters: 'Restoring dignity and securing compensation',
-    icon: (
+    arrest: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Civil Litigation',
-    description: 'Defending rights, resolving disputes, and ensuring fairness in everyday life. Whether it\'s a contract dispute or business conflict, we stand for what\'s right.',
-    whyMatters: 'Ties everything together — justice in action',
-    icon: (
+    civil: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Employment & Labour Law',
-    description: 'Comprehensive employment and labour law solutions protecting your workplace rights',
-    whyMatters: 'Protecting workers\' rights and dignity',
-    icon: (
+    employment: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Family and Divorce Law',
-    description: 'Compassionate representation during difficult family transitions',
-    whyMatters: 'Protecting families during vulnerable times',
-    icon: (
+    family: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Estate Planning and Probate',
-    description: 'Secure your legacy and protect your loved ones\' future',
-    whyMatters: 'Peace of mind for you and your family',
-    icon: (
+    estate: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Contract Drafting & Reviews',
-    description: 'Professional contract services protecting your interests',
-    whyMatters: 'Preventing disputes before they happen',
-    icon: (
+    contract: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Debt Collection',
-    description: 'Effective debt recovery services to protect your business',
-    whyMatters: 'Recovering what\'s rightfully yours',
-    icon: (
+    debt: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z"></path>
       </svg>
     ),
-  },
-  {
-    title: 'Criminal Defense',
-    description: 'Experienced criminal defense representation protecting your freedom',
-    whyMatters: 'Your rights, your future, your freedom',
-    icon: (
+    criminal: (
       <svg className="w-6 h-6 text-brand-gold" fill="none" stroke="currentColor" viewBox="0 0 24 24">
         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3"></path>
       </svg>
     ),
-  },
-]
+  }
+  return icons[type]
+}
 
 const ServiceCard = ({ service, index }) => {
   const ref = useRef(null)
@@ -166,8 +120,72 @@ const ServiceCard = ({ service, index }) => {
 }
 
 const Services = () => {
+  const { t } = useTranslation()
   const ref = useRef(null)
   const isInView = useInView(ref, { once: true, margin: '-100px' })
+
+  const services = [
+    {
+      title: t('services.raf.title'),
+      description: t('services.raf.description'),
+      whyMatters: t('services.raf.why'),
+      icon: getServiceIcon('raf'),
+    },
+    {
+      title: t('services.medical.title'),
+      description: t('services.medical.description'),
+      whyMatters: t('services.medical.why'),
+      icon: getServiceIcon('medical'),
+    },
+    {
+      title: t('services.arrest.title'),
+      description: t('services.arrest.description'),
+      whyMatters: t('services.arrest.why'),
+      icon: getServiceIcon('arrest'),
+    },
+    {
+      title: t('services.civil.title'),
+      description: t('services.civil.description'),
+      whyMatters: t('services.civil.why'),
+      icon: getServiceIcon('civil'),
+    },
+    {
+      title: t('services.employment.title'),
+      description: t('services.employment.description'),
+      whyMatters: t('services.employment.why'),
+      icon: getServiceIcon('employment'),
+    },
+    {
+      title: t('services.family.title'),
+      description: t('services.family.description'),
+      whyMatters: t('services.family.why'),
+      icon: getServiceIcon('family'),
+    },
+    {
+      title: t('services.estate.title'),
+      description: t('services.estate.description'),
+      whyMatters: t('services.estate.why'),
+      icon: getServiceIcon('estate'),
+    },
+    {
+      title: t('services.contract.title'),
+      description: t('services.contract.description'),
+      whyMatters: t('services.contract.why'),
+      icon: getServiceIcon('contract'),
+    },
+    {
+      title: t('services.debt.title'),
+      description: t('services.debt.description'),
+      whyMatters: t('services.debt.why'),
+      icon: getServiceIcon('debt'),
+    },
+    {
+      title: t('services.criminal.title'),
+      description: t('services.criminal.description'),
+      whyMatters: t('services.criminal.why'),
+      icon: getServiceIcon('criminal'),
+    },
+  ]
 
   return (
     <section id="services" className="py-20 px-4 bg-gradient-to-b from-brand-brown to-black">
@@ -180,10 +198,10 @@ const Services = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="font-heading text-4xl md:text-5xl mb-4">
-            Our <span className="gradient-text">Services</span>
+            {t('services.title')} <span className="gradient-text">{t('services.titleHighlight')}</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Comprehensive legal services across multiple practice areas
+            {t('services.subtitle')}
           </p>
         </motion.div>
 

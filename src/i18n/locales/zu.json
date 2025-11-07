@@ -135,5 +135,184 @@
   "footer": {
     "copyright": "© {{year}} I-LS Gumede Attorneys. Wonke amalungelo agodliwe.",
     "tagline": "Ukuphakama komthetho ngobuqotho"
+  },
+  "faq": {
+    "badge": "Imibuzo Evamile",
+    "title": "Imibuzo",
+    "titleHighlight": "Ongase Uyibone",
+    "subtitle": "Lena yimibuzo engiyizwa kakhulu kumakhasimende amasha. Uma unezinye izinkathazo, ungabeki izinsolo ukubuza ngesikhathi sokuseluleka kwakho.",
+    "stillHaveQuestions": "Usenamibuzo? Ngilapha ukusiza.",
+    "scheduleCta": "Dweba Isikhathi Sokuseluleka Mahhala",
+    "questions": [
+      {
+        "q": "Ngabe nginecala eliqinile?",
+        "a": "Icala ngalinye liyingqayizivele. Ngesikhathi sokuseluleka kwethu kokuqala, ngizobuyekeza isimo sakho ngobuqotho futhi nginikeze ukuhlolwa okucacile kwamathuba akho. Ngithatha amacala lapho ngikholelwa khona ngempela ukuthi ngingenza umehluko. Uma icala lakho linempikiswano, ngizolwela wena ngakho konke enginakho."
+      },
+      {
+        "q": "Icala lami lizothatha isikhathi esingakanani?",
+        "a": "Isikhathi siyahluka kuye ngokuyinkimbinkimbi yecala lakho nezinqubo zomthetho ezibandakanyekayo. Ngesikhathi sokuseluleka kwethu, ngizokunikeza isikhathi esingokoqobo okusekelwe kumacala afanayo. Ngizokugcina unolwazi esinyathelweni ngasinye sendlela, ukuze uhlale wazi lapho sima khona."
+      },
+      {
+        "q": "Izimali zakho zingakanani, futhi singenza izivumelwano zokukhokha?",
+        "a": "Ngikholelwa ukuthi ukumelwa komthetho kufanele kutholakale. Ngesikhathi somhlangano wethu wokuqala, ngizoba sobala ngezindleko futhi ngixoxe ngezivumelwano zokukhokha ezisebenzela isimo sakho. Ukugxila kwami kusekusizeni wena, hhayi ekudaleni ukucindezeleka kwezezimali. Ake sixoxe ngalokho okungenzeka."
+      },
+      {
+        "q": "Ngizodinga ukuya enkantolo?",
+        "a": "Akufanele. Amacala amaningi axazululwa ngokuxoxisana nokuxazulula ngaphandle kokungena enkantolo. Umshushisi omuhle uyakusiza ugweme ukushushisana okungadingekile, ukulondoloza isikhathi, imali, nokucindezeleka. Uma enkantolo idingeka, ngizoba lapho nawe, ngilungele ngokugcwele ukulwela amalungelo akho."
+      },
+      {
+        "q": "Yimaphi amadokhumenti okufanele ngiwalethe noma ngilungiselele?",
+        "a": "Letha noma yimaphi amadokhumenti onayo ahlobene necala lakho — imibiko yamaphoyisa, imibiko yezokwelapha, izivumelwano, ukuxhumana, izithombe, noma noma yiziphi ezinye izinto ezifanelekile. Ungakhathazeki uma unganazo zonke. Sizosebenzela ukuqoqa lokho esikudingayo. Vele woza neqiniso lakho nokwethemba kwakho."
+      },
+      {
+        "q": "Ngizoxazululwa kanjani ngecala lami?",
+        "a": "Ukuxhumana kubalulekile. Ngisebenzisa i-WhatsApp, i-imeyili, izingcingo, nemihlangano yobukhona ukukukwazisa. Awusoze uzibuz ukuthi kwenzakalani ngecala lakho. Ngitholakala, ngiphendula ngokushesha, futhi ngizinikele ekuqinisekiseni ukuthi uzizwa ubambe iqhaza ohendweni lwakho lobulungiswa."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Amacala Angempela, Umthelela Wangempela",
+    "title": "Izindaba",
+    "titleHighlight": "Zobulungiswa Obubuyiselwe",
+    "subtitle": "Icala ngalinye liyindaba yomuntu okufanele ixoxwe futhi ilwelwe ngobuqotho nothando. Nazi izibonelo zamakhasimende esesize.",
+    "quote": "Ukuwina icala akukona ngokuzidla noma ukunqoba — kumayelana nokukhululeka nokubuyiselwa. Ukubona isimo ebusweni bekhasimende lapho ubulungiswa sebunikeziwe — leso sikhathi lapho izinyembezi ziguquka zibe ukubonga — leyo ngenye indawo yangempela.",
+    "quoteAuthor": "— Lindokuhle Gumede",
+    "situationLabel": "Isimo",
+    "outcomeLabel": "Umphumela",
+    "cases": [
+      {
+        "type": "Ukuboshwa Okungekho Emthethweni",
+        "situation": "Ikhasimende elaliboshwe ngokungalungile futhi lagcinwa izinsuku ngaphandle kobufakazi. Lapho liza kithi, lalilahlekelwe ukukholelwa ohlelweni lobulungiswa — lalizwa lingenamandla futhi lihlazekile.",
+        "outcome": "Saphenya ngokucophelela futhi salwa ngokukhuthala saze safinyelela ekukhululweni kwalo futhi sathola inhlawulo yokuphulwa kwamalungelo alo. Ukubuka libuyisa isithunzi salo sakusikhumbuza ukuthi kungani senza lomsebenzi.",
+        "emotion": "Kusuka ekungenathemba kuya ekuqinisekisweni"
+      },
+      {
+        "type": "I-Road Accident Fund (RAF)",
+        "situation": "Ngemuva kwengozi ebhubhisayo, ikhasimende lalicindezelwe yizikweletu zokwelapha, lingakwazi ukusebenza, futhi lalingazi ukuthi lizoya kuphi. Inqubo yenhlawulo yayibonakala ingelula ukulandelwa yedwa.",
+        "outcome": "Saphatha zonke imininingwane yesimangalo se-RAF, safinyelela inhlawulo eyavumela ukuba ligxile ekuphuleni futhi lakhe kabusha impilo yalo. Lashintsha kusukela ekuzizweni lilahlwe uhlelo kuya ekuzizweni lisekelwa futhi linethemba.",
+        "emotion": "Kusuka ekucindezelweni kuya ekwakheni kabusha"
+      },
+      {
+        "type": "Ukushushisana Kwabantu",
+        "situation": "Umnikazi webhizinisi elincane ebhekene nengxabano yesivumelwano eyinkimbinkimbi eyayisongela ukubhanga inkampani yabo. Bezizwa besongelwe imithombo yeqembu eliphikisayo nethimba lomthetho.",
+        "outcome": "Ngokuxoxisana okuhlakaniphile nokuzinikela okungaguquki, safinyelela isivumelwano esifanele esavikela ibhizinisi labo nempilo yabo. Ubulungiswa abukona ukuthi ubani onemali eningi — kumayelana nalokho okulungile.",
+        "emotion": "Kusuka ekwesweni kuya ekuphakanyisweni"
+      }
+    ]
+  },
+  "whatToExpect": {
+    "badge": "Uhambo Lwakho",
+    "title": "Kulindeleke",
+    "titleHighlight": "Ukuthini",
+    "subtitle": "Inqubo yomthetho akufanele ibe yinkimbinkimbi noma yesabisayo. Nanku kahle ukuthi sizosebenzisana kanjani ukufinyelela ubulungiswa.",
+    "quote": "Awudingi ukuza nazo zonke izimpendulo — lokho ngumsebenzi wami. Woza neqiniso lakho, amadokhumenti akho, nokwethemba kwakho. Sobabili, sizothola indlela engcono kakhulu yokuhamba phambili.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Ukuxhumana Kokuqala",
+        "description": "Thintana nge-foni, i-WhatsApp, i-imeyili, noma ifomu lethu lokuxhumana. Sizodweba isikhathi sokuseluleka ngesikhathi esikusebenzela. Akukho ukwahlulela, akukho ukucindezelwa — nje ingxoxo.",
+        "details": [
+          "Iyatholakala nge-WhatsApp, ifoni, i-imeyili",
+          "Ukuhlela okushintshashintshayo",
+          "Imibuzo yokuqala iphendulwe"
+        ]
+      },
+      {
+        "number": "02",
+        "title": "Ukuseluleka Kwasehhovisi",
+        "description": "Sihlangana ngobukhona ukuxoxa ngecala lakho ngokuningiliziwe. Ngizolalela indaba yakho, ngibuyekeze amadokhumenti akho, futhi ngikunike ukuhlolwa okungokoqobo. Uzohamba wazi kahle ukuthi umi kuphi.",
+        "details": [
+          "Ukuhlolwa kwecala okucacile",
+          "Ukuxoxwa kwemali okusobala",
+          "Izilinganiso zesikhathi",
+          "Izivumelwano zokukhokha ziyatholakala"
+        ]
+      },
+      {
+        "number": "03",
+        "title": "Ngesikhathi Secala Lakho",
+        "description": "Uma sesiqale, awusoze usale uzibuza. Ngizokugcina unolwazi nge-WhatsApp, izingcingo, ama-imeyili, nemihlangano. Uzozwisisa isinyathelo ngasinye senqubo nesinqumo ngasinye esenzayo sobabili.",
+        "details": [
+          "Ukuxazululwa kwecala njalo",
+          "Ukufinyelela okuqondile kimi",
+          "Ukuxhumana okucacile ngolimi olucacile",
+          "Ubambe iqhaza esinqumweni ngasinye"
+        ]
+      },
+      {
+        "number": "04",
+        "title": "Ukuxazululwa",
+        "description": "Noma ngokuxoxisana, ukuxazulula, noma ukunqoba enkantolo, sisebenza ngokukhuthala ukufinyelela umphumela ongcono kakhulu. Lapho ubulungiswa sebunikeziwe, sigubha sobabili — sazi ukuthi senze okulungile kuwe.",
+        "details": [
+          "Umphumela omuhle kakhulu ulandelwa",
+          "Ukumelwa enkantolo uma kudingeka",
+          "Ukuxoxisana ngokuxazulula",
+          "Ubulungiswa bunikezwa ngesithunzi"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "hero": {
+      "title": "Izwi",
+      "titleHighlight": "Lobulungiswa Nesithunzi",
+      "subtitle": "Isuselwe ekukholweni lokuthi wonke umuntu ufanele ukuzwakala, ukuhlonishwa, futhi amelwe ngobuqotho obungaguquguquki."
+    },
+    "story": {
+      "title": "Indaba Yami",
+      "paragraph1": "Kusukela ngiselula, ngangishaqiswa yizinkinga zabantu abavamile ababengenabantu ababakhulumela. Ngibonile ukuthi kulula kanjani abantu abathambile ukuthuliswa yizinhlelo zomthetho eziyinkimbinkimbi nokuthi izwi elilodwa — elinolwazi, elizimisele, nelinozwelo — lingashintsha impilo yomuntu yonke.",
+      "paragraph2": "Ukuba umshushisi akuzange kube ukhetho lomsebenzi kuphela kimi; kwakuwukubizwa ukumelela ubulungiswa, ukunikeza abantu ithemba lapho kungathi alikho, nokuqinisekisa ukuthi ubulungiswa abugodliwe kuphela labo abakwaziyo ukukuthenga.",
+      "paragraph3": "Ngasungula inkampani yami yomthetho ngoba bengifuna ukusebenza umthetho ngendlela yami — ngenhliziyo, ukutholakala, nokunanzelela kwangempela amakhasimende ami. Ezinkampanini ezinkulu, amakhasimende avame ukuba izinombolo zamacala nje. Bengifuna ukudala indawo lapho wonke ikhasimende lizwa lizwakala, lihlonishwa, futhi libambe iqhaza ohambweni lwalo lobulungiswa.",
+      "casesHandled": "Amacala Aphathiwe",
+      "yearsExperience": "Iminyaka Yolwazi",
+      "successRate": "Izinga Lokuphumelela"
+    },
+    "values": {
+      "title": "Izimiso Zethu Eziyinhloko",
+      "subtitle": "Izimiso eziqondisa ukusebenza kwethu futhi zichaza ukuzinikela kwethu ekuphakameni",
+      "integrity": {
+        "title": "Ubuqotho",
+        "description": "Ukwenza okulungile, ngisho noma kungekho muntu obukayo. Angisoze ngithathe icala elakhiwe ngamanga noma izimangalo ezingamanga. Ukuzinikela kwami kusekuqinisweni nasebulungisweni, hhayi ekunqobeni nganoma yiluphi indleko."
+      },
+      "compassion": {
+        "title": "Uzwelo",
+        "description": "Icala ngalinye libandakanya indaba yomuntu efanele ukuhlonishwa nokuzwelana. Awuyona inombolo yecala; ungumuntu onokwesaba kwangempela, amathemba, namalungelo."
+      },
+      "excellence": {
+        "title": "Ukuphakama",
+        "description": "Ukunikela ngokusemandleni ami kuwo wonke amakhasimende, njalo. Ukugxila kwami akukona ekunqobeni kuphela — kusekwenzeni okulungile kuwe nasekufinyeleni imiphumela efanele."
+      },
+      "accountability": {
+        "title": "Ukuziphendulela",
+        "description": "Ukuma namakhasimende ami nezwi lami. Lapho ngithatha icala lakho, ngilwela wena sengathi licala lami."
+      },
+      "justice": {
+        "title": "Ubulungiswa",
+        "description": "Ukuqinisekisa ukuthi ubulungiswa, isithunzi, nokulingana kugcinwa kukho konke esikwenzayo. Ubulungiswa bangempela kusho ukulinganisa — ukuphatha wonke umuntu ngesithunzi kungakhathaleki ukuthi uvela kuphi noma unemali engakanani."
+      }
+    },
+    "leadership": {
+      "title": "Ubuholi",
+      "subtitle": "Iqondiswa ngolwazi, ishukuntshiswa ukuphakama",
+      "founderName": "Lindokuhle Gumede",
+      "founderTitle": "Umsunguli Nomshushisi Oyinhloko",
+      "bio1": "Ngolwazi olunzulu kumacala e-RAF, ukunganakwa kwezokwelapha, ukuboshwa okungekho emthethweni, nokushushisana kwabantu, uLindokuhle ukhethekile emacaleni aya enhliziyweni yesithunzi somuntu. Indawo ngayinye ibonisa ukuzinikela kubantu, hhayi amaphepha kuphela.",
+      "bio2": "Usuku lwakhe oluvamile luqala enkantolo emela amakhasimende, bese kuthi ntambama ahlangane nabantu abadinga isiqondiso, ebuyekeza ubufakazi, nokwenza amadokhumenti. Phakathi kokuvela enkantolo nokuseluleka, uphindela izingcingo, exoxisa ngokuxazulula, futhi efundisa abasebenzi abasha.",
+      "bio3": "\"Uma bengangesiye umshushisi, bengisasiza abantu — mhlawumbe njengothisha noma umsebenzi womphakathi. Ngake ngaba nothando lokunika abanye amandla, ikakhulukazi labo abazizwa bengenazwi noma bekhanyelelwe.\"",
+      "bio4": "Lapho engekho enkantolo noma ehhovisi, uLindokuhle ubuyisela amandla ngokubuka ibhola lezinyawo neragibhi. Kunalokhu kulinganisa ukucindezeleka nobuntu okumenza kungabi ngumshushisi osebenzayo kuphela, kodwa ummeleli othembekile oqonda ngempela abantu asebenzela.",
+      "expertiseTitle": "Izindawo Zobungcweti"
+    }
+  },
+  "servicesPage": {
+    "hero": {
+      "title": "Izinsizakalo",
+      "titleHighlight": "Zethu Zomthetho",
+      "subtitle": "Izixazululo zomthetho eziphelele ezindaweni eziningi zokuzikhethela, ezilungiselelwe ukuhlangabezana nezidingo zakho eziyingqayizivele."
+    },
+    "cta": {
+      "title": "Udinga Usizo Lwezomthetho?",
+      "description": "Awuboni insizakalo oyidingayo? Sithinte namuhla ukuze uthole iseluleko samahhala ukuze sixoxe ngendaba yakho yomthetho.",
+      "button": "Dweba Isikhathi Sokuseluleka"
+    }
   }
 }
