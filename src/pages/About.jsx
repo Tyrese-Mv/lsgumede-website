@@ -106,12 +106,12 @@ const About = () => {
                   transition={{ duration: 0.6, delay: 0.6 }}
                 >
                   <div className="text-center">
-                    <div className="text-4xl font-heading text-brand-gold mb-1">500+</div>
+                    <div className="text-4xl font-heading text-brand-gold mb-1">100+</div>
                     <div className="text-sm text-gray-500">{t('about.story.casesHandled')}</div>
                   </div>
                   <div className="w-px h-12 bg-brand-gold/20"></div>
                   <div className="text-center">
-                    <div className="text-4xl font-heading text-brand-gold mb-1">15+</div>
+                    <div className="text-4xl font-heading text-brand-gold mb-1">5+</div>
                     <div className="text-sm text-gray-500">{t('about.story.yearsExperience')}</div>
                   </div>
                   <div className="w-px h-12 bg-brand-gold/20"></div>

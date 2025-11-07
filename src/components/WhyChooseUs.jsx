@@ -32,7 +32,7 @@ const staticDetails = {
     'You\'re never just a case number'
   ],
   commitment: [
-    '500+ cases successfully handled',
+    '100+ cases successfully handled',
     '98% success rate',
     'Every case treated with equal dedication',
     'Long-term relationships with clients'
