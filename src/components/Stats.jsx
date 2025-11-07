@@ -10,10 +10,10 @@ const Stats = () => {
   const isInView = useInView(ref, { once: true, margin: '-100px' })
 
   const stats = [
-    { value: 500, suffix: '+', label: t('stats.cases') },
+    { value: 100, suffix: '+', label: t('stats.cases') },
     { value: 98, suffix: '%', label: t('stats.success') },
-    { value: 15, suffix: '+', label: t('stats.experience') },
-    { value: 250, suffix: '+', label: t('stats.clients') },
+    { value: 5, suffix: '+', label: t('stats.experience') },
+    { value: 100, suffix: '+', label: t('stats.clients') },
   ]
 
   return (
