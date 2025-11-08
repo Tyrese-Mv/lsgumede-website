@@ -103,7 +103,7 @@ const Hero = () => {
                 }}
               >
                 <img
-                  src="/gavel.png"
+                  src="/gavel_with_gold.png"
                   alt="Wooden gavel representing justice and legal authority - LS Gumede Attorneys"
                   className="w-full h-auto"
                   loading="eager"
