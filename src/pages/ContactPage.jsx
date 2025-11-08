@@ -2,12 +2,19 @@ import Contact from '../components/Contact'
 import { motion } from 'framer-motion'
 import { useTranslation } from 'react-i18next'
 import PageTransition from '../components/PageTransition'
+import SEO from '../components/SEO'
 
 const ContactPage = () => {
   const { t } = useTranslation()
 
   return (
     <PageTransition>
+      <SEO
+        title="Contact LS Gumede Attorneys | Schedule Your Consultation Today"
+        description="Get in touch with LS Gumede Attorneys in Durban. Call 079 013 4813 for a consultation. We're here to help with your legal needs. Professional, compassionate legal representation."
+        keywords="contact attorney Durban, legal consultation, LS Gumede contact, Durban lawyer contact, schedule consultation"
+        ogImage="/LS_Gumede_only_logo.png"
+      />
       <div className="pt-32 pb-20 px-4">
       <div className="container mx-auto max-w-6xl">
         <motion.div

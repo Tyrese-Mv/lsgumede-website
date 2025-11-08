@@ -32,7 +32,7 @@ const Hero = () => {
               <span className="text-brand-gold/60 text-sm uppercase tracking-wider">{t('hero.badge')}</span>
             </motion.div>
 
-            <motion.h2
+            <motion.h1
               className="font-heading text-5xl md:text-6xl mb-6 leading-tight"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -42,7 +42,7 @@ const Hero = () => {
               <span className="block text-brand-gold">
                 <TextReveal>{t('hero.titleHighlight')}</TextReveal>
               </span>
-            </motion.h2>
+            </motion.h1>
 
             <motion.p
               className="text-lg text-gray-300 mb-4 leading-relaxed"

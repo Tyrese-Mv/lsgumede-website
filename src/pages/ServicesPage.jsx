@@ -3,6 +3,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import PageTransition from '../components/PageTransition'
+import SEO from '../components/SEO'
 
 const getServiceIcon = (type) => {
   const icons = {
@@ -146,6 +147,12 @@ const ServicesPage = () => {
 
   return (
     <PageTransition>
+      <SEO
+        title="Legal Services in Durban | RAF, Civil, Employment & Family Law - LS Gumede"
+        description="Comprehensive legal services in Durban: Road Accident Fund claims, Civil Litigation, Employment Law, Family Law, Estate Administration, Criminal Defense, and more. Expert attorneys ready to help."
+        keywords="legal services Durban, RAF claims lawyer, civil litigation attorney, employment law Durban, family law services, estate administration, criminal defense attorney, contract law"
+        ogImage="/LS_Gumede_only_logo.png"
+      />
       <div className="pt-32 pb-20 px-4">
       <div className="container mx-auto max-w-6xl">
         {/* Hero Section */}

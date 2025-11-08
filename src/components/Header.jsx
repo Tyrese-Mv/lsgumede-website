@@ -50,14 +50,14 @@ const Header = () => {
             >
               <motion.img
                 src="/LS_Gumede_only_logo.png"
-                alt="LS Gumede Attorneys"
+                alt="LS Gumede Attorneys logo - Professional legal services in Durban"
                 className="h-16 md:h-24 w-auto object-contain"
                 style={{ filter: 'drop-shadow(0 0 10px rgba(201, 169, 97, 0.3))' }}
                 whileHover={{ rotate: 5 }}
                 transition={{ duration: 0.3 }}
               />
               <div>
-                <h1 className="font-heading text-lg md:text-2xl text-brand-gold">LS GUMEDE</h1>
+                <div className="font-heading text-lg md:text-2xl text-brand-gold">LS GUMEDE</div>
                 <p className="text-xs md:text-sm text-brand-gold/70">ATTORNEYS</p>
               </div>
             </motion.div>

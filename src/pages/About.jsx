@@ -3,6 +3,7 @@ import { useInView } from 'framer-motion'
 import { useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import PageTransition from '../components/PageTransition'
+import SEO from '../components/SEO'
 
 const About = () => {
   const { t } = useTranslation()
@@ -18,6 +19,12 @@ const About = () => {
 
   return (
     <PageTransition>
+      <SEO
+        title="About LS Gumede Attorneys | Experienced Legal Team in Durban"
+        description="Meet Lindokuhle Gumede and the dedicated legal team at LS Gumede Attorneys. Over 5 years of experience, 100+ cases handled with a 98% success rate in Durban, KwaZulu-Natal."
+        keywords="about LS Gumede Attorneys, Lindokuhle Gumede attorney, Durban law firm, experienced lawyers Durban, legal team"
+        ogImage="/LS_Gumede_photo.jpg"
+      />
       <div className="pt-32 pb-20 px-4 relative overflow-hidden">
         {/* Decorative background elements */}
         <div className="absolute top-20 right-0 w-96 h-96 bg-brand-gold/5 rounded-full blur-3xl -z-10"></div>
@@ -68,8 +75,9 @@ const About = () => {
                 />
                 <img
                   src="/LS_Gumede_photo.jpg"
-                  alt="LS Gumede Attorneys Office"
+                  alt="LS Gumede Attorneys office - Professional law firm in Durban, KwaZulu-Natal"
                   className="rounded-2xl shadow-2xl w-full h-full object-cover relative z-10"
+                  loading="lazy"
                 />
               </div>
             </motion.div>
@@ -265,11 +273,12 @@ const About = () => {
                 <div className="absolute inset-0 border border-brand-gold/20 z-10"></div>
                 <motion.img
                   src="/LS_Gumede_photo.jpg"
-                  alt="Lindokuhle Gumede - Founder & Principal Attorney"
+                  alt="Lindokuhle Gumede - Founder & Principal Attorney at LS Gumede Attorneys"
                   className="w-full h-full object-cover grayscale-[20%]"
                   initial={{ scale: 1.1 }}
                   animate={isFounderInView ? { scale: 1 } : { scale: 1.1 }}
                   transition={{ duration: 1.2, delay: 0.5 }}
+                  loading="lazy"
                 />
                 {/* Subtle overlay gradient */}
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-brown/60 via-transparent to-transparent"></div>
