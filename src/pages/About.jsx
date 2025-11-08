@@ -272,7 +272,7 @@ const About = () => {
                 {/* Subtle frame effect */}
                 <div className="absolute inset-0 border border-brand-gold/20 z-10"></div>
                 <motion.img
-                  src="/LS_Gumede_photo.jpg"
+                  src="/LS_Gumede_Picture_3.jpg"
                   alt="Lindokuhle Gumede - Founder & Principal Attorney at LS Gumede Attorneys"
                   className="w-full h-full object-cover grayscale-[20%]"
                   initial={{ scale: 1.1 }}
