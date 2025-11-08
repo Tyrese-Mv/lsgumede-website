@@ -113,7 +113,8 @@ const Header = () => {
         <motion.nav
           initial={false}
           animate={{ height: mobileMenuOpen ? 'auto' : 0 }}
-          className="md:hidden overflow-hidden"
+          className="md:hidden overflow-x-hidden"
+          style={{ overflow: mobileMenuOpen ? 'visible' : 'hidden' }}
         >
           <div className="pt-4 pb-2 space-y-4">
             {navLinks.map((link) => (
@@ -128,7 +129,7 @@ const Header = () => {
                 </motion.div>
               </Link>
             ))}
-            <div className="py-2">
+            <div className="py-2 relative z-[60]">
               <LanguageSwitcher />
             </div>
             <a href="tel:0790134813" className="block">

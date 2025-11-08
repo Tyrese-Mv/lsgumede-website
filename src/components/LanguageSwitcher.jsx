@@ -28,7 +28,11 @@ const LanguageSwitcher = () => {
     }
 
     document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
+    document.addEventListener('touchstart', handleClickOutside)
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside)
+      document.removeEventListener('touchstart', handleClickOutside)
+    }
   }, [])
 
   return (
@@ -56,7 +60,7 @@ const LanguageSwitcher = () => {
       {/* Dropdown Menu */}
       {isOpen && (
         <motion.div
-          className="absolute right-0 mt-2 w-48 bg-brand-brown/95 backdrop-blur-sm rounded-lg shadow-2xl border border-brand-gold/20 overflow-hidden z-50"
+          className="absolute left-0 sm:right-0 sm:left-auto mt-2 w-48 bg-brand-brown/98 backdrop-blur-md rounded-lg shadow-2xl border border-brand-gold/30 overflow-hidden z-[100]"
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}

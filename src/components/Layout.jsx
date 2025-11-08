@@ -9,14 +9,14 @@ import FloatingWhatsApp from './FloatingWhatsApp'
 
 const Layout = () => {
   return (
-    <div className="font-body bg-brand-brown text-white relative">
+    <div className="font-body bg-brand-brown text-white relative overflow-x-hidden">
       <ScrollProgress />
       <AnimatedBackground />
       <FloatingParticles />
       <MorphingBlobs />
       <FloatingWhatsApp />
       <Header />
-      <main>
+      <main className="overflow-x-hidden">
         <Outlet />
       </main>
       <Footer />
