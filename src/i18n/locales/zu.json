@@ -27,8 +27,8 @@
     "titleHighlight": "Zethu",
     "subtitle": "Izinsizakalo zomthetho eziphelele ngobuqotho nokuphakama",
     "raf": {
-      "title": "Ukulimala Komzimba (RAF)",
-      "description": "Izimangalo ze-Road Accident Fund zingivumela ukuthi ngisize izisulu zakha kabusha impilo yazo ngemuva kwezingozi ezibhubhisayo. Siphatha konke okuningi ukuze ukwazi ukugxila ekuphuleni kwakho.",
+      "title": "Mayelana Namacala Ezingozi Zomgwaqo(RAF)",
+      "description": "Sisiza ngezimangalo ze-Road Accident Fund . Siyakweseka icala lize lifike emaphethelweni kanye nakuzo zonke izingxoxo.",
       "why": "Kuya enhliziyweni yesithunzi somuntu"
     },
     "medical": {
@@ -43,7 +43,7 @@
     },
     "civil": {
       "title": "Amacala Asivili",
-      "description": "Ukuvikela amalungelo, ukuxazulula izingxabano, nokuqinisekisa ubulungiswa empilweni yansuku zonke. Noma kungaba yingxabano yesivumelwano noma ingxabano yebhizinisi, simela okufanele.",
+      "description": "Sisiza ngokukuvikela amalungelo, ukuxazulula izingxabano, nokuqinisekisa ubulungiswa empilweni yansuku zonke. Noma kungaba yingxabano yesivumelwano noma ingxabano yebhizinisi, simela okufanele.",
       "why": "Kuhlanganisa konke ndawonye — ubulungiswa ekusebenzeni"
     },
     "employment": {
@@ -62,8 +62,8 @@
       "why": "Ukuthula kwengqondo kuwe nomndeni wakho"
     },
     "contract": {
-      "title": "Ukudweba Nokubuyekeza Izivumelwano",
-      "description": "Izinsizakalo zezivumelwano eziprofeshinali ezivikela izintshisekelo zakho",
+      "title": "Ukuhlelwa Nokubuyekezwa Kwezivumelwano",
+      "description": "Sisiza ngezivumelwano ngobuchwepheshe ukuze uvikele amalungelo akho kanye nezintshisekelo zakho.",
       "why": "Ukuvimbela izingxabano zingakenzeki"
     },
     "debt": {
@@ -307,7 +307,7 @@
     "hero": {
       "title": "Izinsizakalo",
       "titleHighlight": "Zethu Zomthetho",
-      "subtitle": "Izixazululo zomthetho eziphelele ezindaweni eziningi zokuzikhethela, ezilungiselelwe ukuhlangabezana nezidingo zakho eziyingqayizivele."
+      "subtitle": "Sixazulula izinkinga zomthetho ngokuphelele. Siyaqikelela ukwehlelela izixazululo ngendlela elungele wonke ama klayenti esisebenzisana nawo."
     },
     "cta": {
       "title": "Udinga Usizo Lwezomthetho?",
