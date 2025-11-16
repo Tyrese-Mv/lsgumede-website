@@ -6,7 +6,7 @@
     "contact": "Xhumana Nathi"
   },
   "hero": {
-    "badge": "Inkampani ephethwe ngabantu abamunyama Kuphela(100%)",
+    "badge": "Inkampani Ephethwe Ngabantu Abamunyama Kuphela(100%)",
     "title": "Simela",
     "titleHighlight": "Abangenazwi",
     "description": "Ubulungiswa abuhlelelwe kuphela labo abangakuthenga. Sinika abantu ithemba lapho kungathi alikho, futhi siqinisekisa ukuthi ubulungiswa buyafika kubo bonke",
@@ -29,11 +29,12 @@
     "raf": {
       "title": "Mayelana Namacala Ezingozi Zomgwaqo(RAF)",
       "description": "Sisiza ngezimangalo ze-Road Accident Fund . Siyakweseka icala lize lifike emaphethelweni kanye nakuzo zonke izingxoxo.",
-      "why": "Kuya enhliziyweni yesithunzi somuntu"
+      "why": "Kuya enhliziweni yesithunzi somuntu"
     },
     "medical": {
       "title": "Ukunganakwa Kwezokwelapha",
-      "description": "Sisiza ezimeni lapho iziguli zibhekene nokungaphatheki kahle ezikhungeni zasemthola mpilo."
+      "description": "Sisiza ezimeni lapho iziguli zibhekene nokungaphatheki kahle ezikhungeni zasemthola mpilo.",
+      "why": ""
     },
     "arrest": {
       "title": "Ukuboshwa Okungekho Emthethweni",
