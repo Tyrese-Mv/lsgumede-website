@@ -38,43 +38,43 @@
     },
     "arrest": {
       "title": "Ukuboshwa Okungekho Emthethweni",
-      "description": "Sisebenza kanzima ukubuyisa isithunzi kulabo abasolwa ngamacala abangawenzanga. Uma uvalelwe ngokungemthetho, ubufakazi bungekho, silwela amalunelo akho",
+      "description": "Sisebenza kanzima ukubuyisa isithunzi kulabo abasolwa ngamacala abangawenzanga. Uma uvalelwe ngokungemthetho, ubufakazi bungekho, silwela amalungelo akho.",
       "why": "Ukubuyisela isithunzi nokuthola inhlawulo"
     },
     "civil": {
       "title": "Amacala Asivili",
-      "description": "Sisiza ngokukuvikela amalungelo, ukuxazulula izingxabano, nokuqinisekisa ubulungiswa empilweni yansuku zonke. Noma kungaba yingxabano yesivumelwano noma ingxabano yebhizinisi, simela okufanele.",
-      "why": "Kuhlanganisa konke ndawonye — ubulungiswa ekusebenzeni"
+      "description": "Sisiza ngokuvikela amalungelo akho, ukuxazulula izingxabano, nokuqinisekisa ubulungiswa empilweni yansuku zonke. Noma kungaba yingxabano yesivumelwano noma ingxabano yebhizinisi, simela okufanele.",
+      "why": ""
     },
     "employment": {
       "title": "Umthetho Webaqashi Kanye Nabasebenzi",
       "description": "Silekeleka ukuqiniseka ukuthi amalungelo akho njengomsebenzi alandelwa njengokuqokwa kwawo ngokomthetho kahulumeni.",
-      "why": "Ukuvikela amalungelo abasebenzi nesithunzi"
+      "why": ""
     },
     "family": {
       "title": "Umthetho Womndeni Nokuhlukaniswa",
-      "description": "Siyakweseka uma ubhekena nezingxoxo zesehlukaniso somndeni.",
-      "why": "Ukuvikela imindeni ngesikhathi sobusha"
+      "description": "Siyakweseka uma ubhekene nezingxoxo zesehlukaniso somndeni.",
+      "why": ""
     },
     "estate": {
       "title": "Ukuhlela Ifa Nokucubungula",
-      "description": "Vikela ifa lakho futhi uvikele ikusasa labathandekayo bakho",
-      "why": "Ukuthula kwengqondo kuwe nomndeni wakho"
+      "description": "Vikela ifa lakho futhi uvikele ikusasa labathandekayo bakho.",
+      "why": ""
     },
     "contract": {
       "title": "Ukuhlelwa Nokubuyekezwa Kwezivumelwano",
       "description": "Sisiza ngezivumelwano ngobuchwepheshe ukuze uvikele amalungelo akho kanye nezintshisekelo zakho.",
-      "why": "Ukuvimbela izingxabano zingakenzeki"
+      "why": ""
     },
     "debt": {
       "title": "Ukuqoqa Izikweletu",
-      "description": "Izinsizakalo zokubuyiswa kwezikweletu ezisebenzayo ukuvikela ibhizinisi lakho",
-      "why": "Ukubuyisela okuyilungelo lakho"
+      "description": "Sisiza ngokuvikela amabhizinisi ngokuqoqa izikweletu kumakhasimende angakhokhi kahle.",
+      "why": ""
     },
     "criminal": {
-      "title": "Ukuzivikela Ebugebenguini",
-      "description": "Ukumelwa kokuzivikela ebugebenguini okunolwazi oluvikela inkululeko yakho",
-      "why": "Amalungelo akho, ikusasa lakho, inkululeko yakho"
+      "title": "Ukuvikelwa emacaleni obugebengu",
+      "description": "Singo ngoti ekuvikeleni labo ababhekene nokusolwa ngobugebengu.",
+      "why": ""
     }
   },
   "contact": {
@@ -85,8 +85,8 @@
     "email": "I-imeyili",
     "office": "Ihhovisi",
     "regus": "Indawo Yebhizinisi Yase-Regus",
-    "address": "303 Anton Lembede Street, Ipulangwe lesi-5<br />Durban Club Place, eThekwini, 4001",
-    "whatsapp": "Sithumelele ku-WhatsApp",
+    "address": "303 Anton Lembede Street, Ibanga lesihlanu eDurban Club Place, eThekwini, 4001",
+    "whatsapp": "Sithumelele umyalezo ku-WhatsApp",
     "form": {
       "name": "Igama Eliphelele",
       "namePlaceholder": "Igama lakho",
@@ -210,44 +210,43 @@
       {
         "number": "01",
         "title": "Ukuxhumana Kokuqala",
-        "description": "Thintana nge-foni, ngo-WhatsApp, nge-imeyili, noma gcwalisa ifomu lethu lokuxhumana. Sizohlela isikhathi sokuseluleka. Akukho ukwahlulela, akukho ukucindezelwa — nje ingxoxo.",
+        "description": "Thintana nathi nge-foni, noma ngo-WhatsApp, nge e-mail, noma gcwalisa ifomu lethu lokuxhumana. Sizohlela isikhathi sekukweluleka. Akukho ukwahlulela, akukho ukucindezelwa — nje ingxoxo.",
         "details": [
-          "Iyatholakala nge-WhatsApp, ngefoni, kanye ne-imeyili",
-          "Ukuhlela okushintshashintshayo",
-          "Imibuzo yokuqala iphendulwe"
+          "Siyatholakala ng-WhatsApp, ngefoni, kanye ne-email",
+          "UIzingxoxo sizihlela ngesikhathi esifanele wena.",
+          "Yonke imibuzo onayo, siyayiphendula."
         ]
       },
       {
         "number": "02",
-        "title": "Ukuseluleka Kwasehhovisi",
-        "description": "Sihlangana ngobukhona ukuxoxa ngecala lakho ngokuningiliziwe. Ngizolalela indaba yakho, ngibuyekeze amadokhumenti akho, futhi ngikunike ukuhlolwa okungokoqobo. Uzohamba wazi kahle ukuthi umi kuphi.",
+        "title": "Izingxoxo zasehhovisi",
+        "description": "Sihlela usuku lomhlangano, lapho ngizolalela udaba lwakho ngiphinde ngibuyekeze amadokhumenti akho. Ngiyabacubungula bese ngikunika umbono wami. Ngiyaqiniseka ukuthi uyaqondisisa ukuthi isimo sakho sikubeka kuphi.",
         "details": [
-          "Ukuhlolwa kwecala okucacile",
-          "Ukuxoxwa kwemali okusobala",
-          "Izilinganiso zesikhathi",
-          "Izivumelwano zokukhokha ziyatholakala"
+          "Uthola ukuhlolwa kwecala okucacile",
+          "Imali ozoyikhokha siyixoxa ngokusobala.",
+          "Ngiyakuchazela ukuthi isimo sakho sizodinga isikhathi esingakanani ukuze uzohelal kahle imali ozoyidinga.",
+          "Ngiyakuvumela ukuthi wenze izinhlelo zokukhokha."
         ]
       },
       {
         "number": "03",
-        "title": "Ngesikhathi Secala Lakho",
-        "description": "Uma sesiqale, awusoze usale uzibuza. Ngizokugcina unolwazi nge-WhatsApp, izingcingo, ama-imeyili, nemihlangano. Uzozwisisa isinyathelo ngasinye senqubo nesinqumo ngasinye esenzayo sobabili.",
+        "title": "Ngesikhathi Kusaqulwa Icala Lakho",
+        "description": "Uma sesiqale, awusoze usale uzibuza. Ngizokugcina unolwazi nge-WhatsApp noma ngocingo, noma nge-email kanye nemihlangano. Ngiyaqikelela ukuthi uyazwisisa zonke izinqumo kanye nezinyathelo esizithathayo.",
         "details": [
-          "Ukuxazululwa kwecala njalo",
-          "Ukufinyelela okuqondile kimi",
-          "Ukuxhumana okucacile ngolimi olucacile",
-          "Ubambe iqhaza esinqumweni ngasinye"
+          "Ngiyaqikelela ukuthi ngiyakwazisa ngakho konke okwenzekalayo ngecala lakho.",
+          "NNgiyaqiniseka ukuthi ngikhuluma ngendlela ecacile.",
+          "Ngiyakubandakanya kuzo zonke izinqumo."
         ]
       },
       {
         "number": "04",
-        "title": "Ukuxazululwa",
-        "description": "Noma ngokuxoxisana, ukuxazulula, noma ukunqoba enkantolo, sisebenza ngokukhuthala ukufinyelela umphumela ongcono kakhulu. Lapho ubulungiswa sebunikeziwe, sigubha sobabili — sazi ukuthi senze okulungile kuwe.",
+        "title": "Isixazululo",
+        "description": "Emva kwezingxoxo noma ngabe isiphi isinqumo esifika kuso, ngiyaqikelela ukuthi lesi esisithathayo isona esingcono kunazo zonke.",
         "details": [
-          "Umphumela omuhle kakhulu ulandelwa",
-          "Ukumelwa enkantolo uma kudingeka",
-          "Ukuxoxisana ngokuxazulula",
-          "Ubulungiswa bunikezwa ngesithunzi"
+          "Ngiyaqikelela ukuthi ngiyaphokophela ukuthi umphumela kube ozokujabulisa.",
+          "Ngiyakumela enkantolo uma udinga ozokumela.",
+          "Uma isinqumo sidinga izingxoxo, nakhona ngiyakweseka ngiqikelele ukuthi izidingo zakho ziyezwakala.",
+          "Ngilwelwa ubulungiswa ngokuhloniphekile."
         ]
       }
     ]
@@ -296,7 +295,7 @@
       "subtitle": "Iqondiswa ngolwazi, ishukuntshiswa ukuphakama",
       "founderName": "Lindokuhle Gumede",
       "founderTitle": "Umsunguli Nomshushisi Oyinhloko",
-      "bio1": "Ngolwazi olunzulu kumacala e-RAF, ukunganakwa kwezokwelapha, ukuboshwa okungekho emthethweni, nokushushisana kwabantu, uLindokuhle ukhethekile emacaleni aya enhliziyweni yesithunzi somuntu. Indawo ngayinye ibonisa ukuzinikela kubantu, hhayi amaphepha kuphela.",
+      "bio1": "Ngolwazi olunzulu kumacala e-RAF, ukunganakwa Ezikhungweni Zempilo, Ukuboshwa Okungekho Emthethweni, nokushushisana kwabantu, uLindokuhle ukhethekile emacaleni aya enhliziyweni yesithunzi somuntu. Indawo ngayinye ibonisa ukuzinikela kubantu, hhayi amaphepha kuphela.",
       "bio2": "Usuku lwakhe oluvamile luqala enkantolo emela amakhasimende, bese kuthi ntambama ahlangane nabantu abadinga isiqondiso, ebuyekeza ubufakazi, nokwenza amadokhumenti. Phakathi kokuvela enkantolo nokuseluleka, uphindela izingcingo, exoxisa ngokuxazulula, futhi efundisa abasebenzi abasha.",
       "bio3": "\"Uma bengangesiye umshushisi, bengisasiza abantu — mhlawumbe njengothisha noma umsebenzi womphakathi. Ngake ngaba nothando lokunika abanye amandla, ikakhulukazi labo abazizwa bengenazwi noma bekhanyelelwe.\"",
       "bio4": "Lapho engekho enkantolo noma ehhovisi, uLindokuhle ubuyisela amandla ngokubuka ibhola lezinyawo neragibhi. Kunalokhu kulinganisa ukucindezeleka nobuntu okumenza kungabi ngumshushisi osebenzayo kuphela, kodwa ummeleli othembekile oqonda ngempela abantu asebenzela.",
