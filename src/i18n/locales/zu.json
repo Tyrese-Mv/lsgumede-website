@@ -121,15 +121,15 @@
     "titleHighlight": "I-LS Gumede Attorneys",
     "personal": {
       "title": "Ukunakwa Komuntu Ngamunye",
-      "description": "Wonke amakhasimende asebenza ngqo nami — awadluliselwa esuka edesikini kuya kwesinye. Uthola ukuhlanganyela kwami siqu kusuka ekuxoxeni kuze kube sekuxazululweni. Asiphathi amakhasimende njengamafayela; siwaphatha njengabantu."
+      "description": "Wonke amakhasimende asebenza ngqo nami — awadluliselwa kubantu abahlukile. Uthola ukusebenza nami kuphela zisuka size siyophetha. Angiphathi amakhasimende njengamafayela; ngiwaphatha njengabantu abahloniphekile."
     },
     "commitment": {
       "title": "Ukuzinikela Okufakazelwe",
-      "description": "Ngithatha wonke amacala siqu futhi ngilwela sengathi uyicala lami. Ukugxila kwami akukwiningi, kodwa kumphumela — ukuthola imiphumela yangempela nokwakha ukwethenjwa kwempilo yonke."
+      "description": "Wonke amacala ngiwasebenza mina. Uma sisebenzisana, angizixini ngomusebenzi omuningi kodwa ngiyaqiniseka ukuthi umsebenzi engiwenzayo uyabonakala. Lokhu kungisiza ukuthi ngakhe ubudlelwane obuhle namakhasimende ami."
     },
     "integrity": {
       "title": "Ubuqotho Nemiphumela",
-      "description": "Ngiqotho ngamathuba akho, sobala ngezindleko, futhi ngingaloki ekuzuzeleni imiphumela efanele. Ukugxila kwami akukuphumelela kuphela — kukwenza okulungile kuwe."
+      "description": "Ngikutshela iqiniso mayelana ngesimo obhekene naso kanye nemiphumela ongahle uyithole emva kwazo zonke izingxoxo. Ngiyaqiniseka ukuthi ngikuveza obala ukuthi imali okuzomele uyikhokhe ingakanani. Ngigxila ekuqinisekeni ukuthi siyayinqoba inkinga obhekene nayo."
     }
   },
   "footer": {
@@ -182,49 +182,49 @@
     "cases": [
       {
         "type": "Ukuboshwa Okungekho Emthethweni",
-        "situation": "Ikhasimende elaliboshwe ngokungalungile futhi lagcinwa izinsuku ngaphandle kobufakazi. Lapho liza kithi, lalilahlekelwe ukukholelwa ohlelweni lobulungiswa — lalizwa lingenamandla futhi lihlazekile.",
-        "outcome": "Saphenya ngokucophelela futhi salwa ngokukhuthala saze safinyelela ekukhululweni kwalo futhi sathola inhlawulo yokuphulwa kwamalungelo alo. Ukubuka libuyisa isithunzi salo sakusikhumbuza ukuthi kungani senza lomsebenzi.",
-        "emotion": "Kusuka ekungenathemba kuya ekuqinisekisweni"
+        "situation": "Ikhasimende laliboshwe ngokungangekho emthethweni, futhi lagcinwa izinsuku ngaphandle kobufakazi. Lapho liza kithi, lalilahlekelwe ukukholwa ohlelweni lobulungiswa — lalizwa lingenamandla futhi lihlazekile.",
+        "outcome": "Saphenya ngokucophelela futhi salwa ngokukhuthala saze safinyelela ekukhululweni kwalo futhi sathola inhlawulo yokuphulwa kwamalungelo alo. Ukubuka libuyisa isithunzi salo kwasikhumbuza ukuthi kungani senza lomsebenzi.",
+        "emotion": "Kusuka ekulahlekweleni ithemba kuya ekuzithembeni okuneqiniso."
       },
       {
         "type": "I-Road Accident Fund (RAF)",
-        "situation": "Ngemuva kwengozi ebhubhisayo, ikhasimende lalicindezelwe yizikweletu zokwelapha, lingakwazi ukusebenza, futhi lalingazi ukuthi lizoya kuphi. Inqubo yenhlawulo yayibonakala ingelula ukulandelwa yedwa.",
-        "outcome": "Saphatha zonke imininingwane yesimangalo se-RAF, safinyelela inhlawulo eyavumela ukuba ligxile ekuphuleni futhi lakhe kabusha impilo yalo. Lashintsha kusukela ekuzizweni lilahlwe uhlelo kuya ekuzizweni lisekelwa futhi linethemba.",
-        "emotion": "Kusuka ekucindezelweni kuya ekwakheni kabusha"
+        "situation": "Ngemuva kwengozi ebhubhisayo, ikhasimende lalicindezelwe yizikweletu zezindleko zasemtholampilo, lingakwazi ukusebenza, futhi lalingazi ukuthi lizoya kuphi. Inqubo yenhlawulo yayibonakala ingelula ngenkathi eyilandela yedwa.",
+        "outcome": "Saphatha yonke imininingwane eyayidingeka ukuze siyomangala emahhovisi akwa RAF, safinyelela inhlawulo eyavumela ukuba ligxile ekululameni futhi lakhe kabusha impilo yalo. Lashintsha kusukela ekuzizweni lilahlekile kuya ekuzizweni lisekelwa futhi linethemba.",
+        "emotion": "Kusuka ekucindezelweni kuya ekwakheni kabusha."
       },
       {
         "type": "Ukushushisana Kwabantu",
-        "situation": "Umnikazi webhizinisi elincane ebhekene nengxabano yesivumelwano eyinkimbinkimbi eyayisongela ukubhanga inkampani yabo. Bezizwa besongelwe imithombo yeqembu eliphikisayo nethimba lomthetho.",
-        "outcome": "Ngokuxoxisana okuhlakaniphile nokuzinikela okungaguquki, safinyelela isivumelwano esifanele esavikela ibhizinisi labo nempilo yabo. Ubulungiswa abukona ukuthi ubani onemali eningi — kumayelana nalokho okulungile.",
-        "emotion": "Kusuka ekwesweni kuya ekuphakanyisweni"
+        "situation": "Abanikazi bebhizinisi elincane babebhekene nengxabano yesivumelwano phakathi kwabo kanye nabanye abalingane babo ngokwebhizinisi. Lesisimo sasisongela ukudicilela phansi isimo sezimali enkampani yabo. Babezizwa besongelwe yilabalingane babo kanye nethimba lomthetho.",
+        "outcome": "Ngokuxoxisana okuhlakaniphile nokuzinikela, safinyelela kwisivumelwano esifanele esavikela ibhizinisi labo nempilo yabo. Ubulungiswa abuyi ngokukuthi ubani onemali eningi — kumayelana nalokho okulungile.",
+        "emotion": "Kusuka eekuthukeni baze bazizwa benamandla."
       }
     ]
   },
   "whatToExpect": {
     "badge": "Uhambo Lwakho",
     "title": "Kulindeleke",
-    "titleHighlight": "Ukuthini",
-    "subtitle": "Inqubo yomthetho akufanele ibe yinkimbinkimbi noma yesabisayo. Nanku kahle ukuthi sizosebenzisana kanjani ukufinyelela ubulungiswa.",
-    "quote": "Awudingi ukuza nazo zonke izimpendulo — lokho ngumsebenzi wami. Woza neqiniso lakho, amadokhumenti akho, nokwethemba kwakho. Sobabili, sizothola indlela engcono kakhulu yokuhamba phambili.",
+    "titleHighlight": "Ukuthini?",
+    "subtitle": "Inqubo yomthetho akufanele ibe yinkimbinkimbi noma ibukeke njengesimo esithusayo.Funda lapha ngezansi ukuze uzoqondisisa ukuthi sizosebenzisana kanjani ukuze uthole ubulungiswa.",
+    "quote": "Awudingi ukuza nazo zonke izimpendulo — lokho ngumsebenzi wami. Woza neqiniso lakho, imininingwane yakho, nethemba. Sobabili, sizothola indlela engcono kakhulu yokuqhubekela phambili.",
     "steps": [
       {
         "number": "01",
         "title": "Ukuxhumana Kokuqala",
-        "description": "Thintana nathi nge-foni, noma ngo-WhatsApp, nge e-mail, noma gcwalisa ifomu lethu lokuxhumana. Sizohlela isikhathi sekukweluleka. Akukho ukwahlulela, akukho ukucindezelwa — nje ingxoxo.",
+        "description": "Thintana nathi nge-foni, noma ngo-WhatsApp,noma nge e-mail, noma gcwalisa ifomu lokuxhumana. Sizohlela isikhathi sokukweluleka. Akukho ukwahlulela, akukho ukucindezelwa —ingxoxo nje.",
         "details": [
-          "Siyatholakala ng-WhatsApp, ngefoni, kanye ne-email",
-          "UIzingxoxo sizihlela ngesikhathi esifanele wena.",
+          "Siyatholakala ku-WhatsApp, ngefoni, kanye ne-email.",
+          "Izingxoxo sizihlela ngesikhathi esifanele wena.",
           "Yonke imibuzo onayo, siyayiphendula."
         ]
       },
       {
         "number": "02",
         "title": "Izingxoxo zasehhovisi",
-        "description": "Sihlela usuku lomhlangano, lapho ngizolalela udaba lwakho ngiphinde ngibuyekeze amadokhumenti akho. Ngiyabacubungula bese ngikunika umbono wami. Ngiyaqiniseka ukuthi uyaqondisisa ukuthi isimo sakho sikubeka kuphi.",
+        "description": "Sihlela usuku lomhlangano, lapho ngizolalela udaba lwakho ngiphinde ngibuyekeze imininingwane yakho. Ngiyawabacubungula bese ngikunika umbono wami. Ngiyaqiniseka ukuthi uyaqondisisa ukuthi isimo sakho sikubeka kuphi.",
         "details": [
-          "Uthola ukuhlolwa kwecala okucacile",
+          "Uthola ukuhlolwa kwecala okucacile.",
           "Imali ozoyikhokha siyixoxa ngokusobala.",
-          "Ngiyakuchazela ukuthi isimo sakho sizodinga isikhathi esingakanani ukuze uzohelal kahle imali ozoyidinga.",
+          "Ngiyakuchazela ukuthi isimo sakho sizodinga isikhathi esingakanani ukuze uzohlela kahle imali ozoyidinga.",
           "Ngiyakuvumela ukuthi wenze izinhlelo zokukhokha."
         ]
       },
@@ -234,7 +234,7 @@
         "description": "Uma sesiqale, awusoze usale uzibuza. Ngizokugcina unolwazi nge-WhatsApp noma ngocingo, noma nge-email kanye nemihlangano. Ngiyaqikelela ukuthi uyazwisisa zonke izinqumo kanye nezinyathelo esizithathayo.",
         "details": [
           "Ngiyaqikelela ukuthi ngiyakwazisa ngakho konke okwenzekalayo ngecala lakho.",
-          "NNgiyaqiniseka ukuthi ngikhuluma ngendlela ecacile.",
+          "Ngiyaqiniseka ukuthi ngikhuluma ngendlela ecacile.",
           "Ngiyakubandakanya kuzo zonke izinqumo."
         ]
       },
